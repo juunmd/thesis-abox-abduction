@@ -1,0 +1,11 @@
+# ore_ont_16166 | eq1 | LETHE | obs=Abstract(a) | gt=Character(a) | count=9 | runtime=1.6463615894317627
+
+ClassAssertion(<http://purl.org/linguistics/gold/LinguisticUnit> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/LinguisticProperty> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/LinguisticDataStructure> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/PhonologicalSystem> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/LinguisticSystem> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/OrthographicSystem> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/Character> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/Taxon> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/LinguisticSign> <http://abduction.local/a>)

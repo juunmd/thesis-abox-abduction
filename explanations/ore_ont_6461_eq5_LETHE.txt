@@ -1,0 +1,4 @@
+# ore_ont_6461 | eq5 | LETHE | obs=CARO_0000006(a) | gt=CARO_0000003(a) | count=2 | runtime=1.1293277740478516
+
+ClassAssertion(<http://purl.org/obo/owl/CARO#CARO_0000003> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/obo/owl/CARO#CARO_0000004> <http://abduction.local/a>)

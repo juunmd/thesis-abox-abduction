@@ -1,0 +1,5 @@
+# ore_ont_3330 | eq3 | LETHE | obs=Committee(a) | gt=Best_Paper_Awards_Committee(a) | count=3 | runtime=1.2078540325164795
+
+ClassAssertion(<http://www.owl-ontologies.com/unnamed.owl#Best_Paper_Awards_Committee> <http://abduction.local/a>)
+ClassAssertion(<http://www.owl-ontologies.com/unnamed.owl#Organizing_Committee> <http://abduction.local/a>)
+ClassAssertion(<http://www.owl-ontologies.com/unnamed.owl#Program_Committee> <http://abduction.local/a>)

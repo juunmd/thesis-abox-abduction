@@ -1,0 +1,4 @@
+# ore_ont_3330 | eq1 | CATS | obs=Author(a) | gt=Author_of_paper(a) | count=2 | runtime=1.504389762878418
+
+Author_of_paper_student(a)
+Author_of_paper(a)

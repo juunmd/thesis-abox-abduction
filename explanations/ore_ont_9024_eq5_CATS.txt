@@ -1,0 +1,7 @@
+# ore_ont_9024 | eq5 | CATS | obs=BiologicalAction(a) | gt=OrganismAction(a) | count=5 | runtime=87.73127913475037
+
+IndividualBehavior(a)
+OrganismAction(a)
+HumanAction(a)
+SocialBehavior(a)
+Behavior(a)

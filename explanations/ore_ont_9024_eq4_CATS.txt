@@ -1,0 +1,4 @@
+# ore_ont_9024 | eq4 | CATS | obs=Arthropod(a) | gt=Insect(a) | count=2 | runtime=91.9111578464508
+
+FruitFly(a)
+Insect(a)

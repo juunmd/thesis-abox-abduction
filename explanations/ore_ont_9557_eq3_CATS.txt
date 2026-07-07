@@ -1,0 +1,4 @@
+# ore_ont_9557 | eq3 | CATS | obs=Name(a) | gt=DeceasedName(a) | count=2 | runtime=2.727954387664795
+
+DeceasedName(a)
+RelativeName(a)

@@ -1,0 +1,4 @@
+# ore_ont_13805 | eq3 | LETHE | obs=RedBordeaux(a) | gt=RedWine(a), Bordeaux(a) | count=2 | runtime=1.61826491355896
+
+ClassAssertion(<http://swat.cse.lehigh.edu/onto/wine.owl#Bordeaux> <http://abduction.local/a>)
+ClassAssertion(<http://swat.cse.lehigh.edu/onto/wine.owl#RedWine> <http://abduction.local/a>)

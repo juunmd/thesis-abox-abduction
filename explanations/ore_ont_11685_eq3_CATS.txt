@@ -1,0 +1,5 @@
+# ore_ont_11685 | eq3 | CATS | obs=ApnUidPG(a) | gt=ApgUidType(a) | count=3 | runtime=5.860710382461548
+
+ApnType(a)
+GsdUidType(a)
+ApgUidType(a)

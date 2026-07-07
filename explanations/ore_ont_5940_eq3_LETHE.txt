@@ -1,0 +1,4 @@
+# ore_ont_5940 | eq3 | LETHE | obs=IAO_0000025(a) | gt=SWO_0000274(a) | count=2 | runtime=2.4145426750183105
+
+ClassAssertion(<http://www.ebi.ac.uk/efo/swo/SWO_0000274> <http://abduction.local/a>)
+ClassAssertion(<http://www.ebi.ac.uk/efo/swo/SWO_0000415> <http://abduction.local/a>)

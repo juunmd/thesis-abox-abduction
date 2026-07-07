@@ -1,0 +1,5 @@
+# ore_ont_3330 | eq3 | CATS | obs=Committee(a) | gt=Best_Paper_Awards_Committee(a) | count=3 | runtime=1.5261147022247314
+
+Best_Paper_Awards_Committee(a)
+Organizing_Committee(a)
+Program_Committee(a)

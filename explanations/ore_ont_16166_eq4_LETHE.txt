@@ -1,0 +1,5 @@
+# ore_ont_16166 | eq4 | LETHE | obs=Affix(a) | gt=Infix(a) | count=3 | runtime=1.6131503582000732
+
+ClassAssertion(<http://purl.org/linguistics/gold/Infix> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/Prefix> <http://abduction.local/a>)
+ClassAssertion(<http://purl.org/linguistics/gold/Suffix> <http://abduction.local/a>)

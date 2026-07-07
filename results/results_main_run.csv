@@ -1,0 +1,249 @@
+ontology_name,strategy,tool_name,runtime_s,hypothesis_size,hypothesis_class_count,recovery_rate,recovered_set_precision,valid_explanation,timed_out,peak_memory_mb
+ore_ont_10320,A,CATS,301.7857520580292,0,0,,,,False,0.24
+ore_ont_10320,A,LETHE,1.3166368007659912,1,1,0.0,0.0,True,False,1.05
+ore_ont_10320,A,AAA,TIMEOUT,,,,,,True,0.19
+ore_ont_10320,B,CATS,289.0147211551666,0,0,,,,False,0.24
+ore_ont_10320,B,LETHE,3.985790729522705,1,0,,,False,False,9.67
+ore_ont_10320,B,AAA,TIMEOUT,,,,,,True,0.18
+ore_ont_10320,C,CATS,301.8739056587219,0,0,,,,False,0.23
+ore_ont_10320,C,LETHE,4.253494739532471,1,0,,,False,False,9.95
+ore_ont_10320,C,AAA,TIMEOUT,,,,,,True,0.19
+ore_ont_10571,A,CATS,301.6127483844757,0,0,,,,False,0.24
+ore_ont_10571,A,LETHE,1.2452106475830078,1,1,0.0,0.0,True,False,0.72
+ore_ont_10571,A,AAA,TIMEOUT,,,,,,True,0.22
+ore_ont_10571,B,CATS,301.6176836490631,0,0,,,,False,0.24
+ore_ont_10571,B,LETHE,TIMEOUT,,,,,,True,7159.58
+ore_ont_10571,B,AAA,TIMEOUT,,,,,,True,0.22
+ore_ont_10571,C,CATS,301.5353684425354,0,0,,,,False,0.24
+ore_ont_10571,C,LETHE,TIMEOUT,,,,,,True,12171.65
+ore_ont_10571,C,AAA,TIMEOUT,,,,,,True,0.22
+ore_ont_10702,A,CATS,303.5228497982025,0,0,,,,False,0.24
+ore_ont_10702,A,LETHE,1.9721601009368896,1,1,0.0,0.0,True,False,1.33
+ore_ont_10702,A,AAA,TIMEOUT,,,,,,True,0.3
+ore_ont_10702,B,CATS,328.063663482666,0,0,,,,False,0.24
+ore_ont_10702,B,LETHE,1.754432201385498,0,0,,,,False,1.86
+ore_ont_10702,B,AAA,TIMEOUT,,,,,,True,0.29
+ore_ont_10702,C,CATS,TIMEOUT,,,,,,True,0.04
+ore_ont_10702,C,LETHE,1.9975266456604004,0,0,,,,False,2.01
+ore_ont_10702,C,AAA,TIMEOUT,,,,,,True,0.3
+ore_ont_11477,A,CATS,302.9081871509552,0,0,,,,False,0.24
+ore_ont_11477,A,LETHE,2.0575499534606934,1,1,0.0,0.0,True,False,1.65
+ore_ont_11477,A,AAA,TIMEOUT,,,,,,True,0.38
+ore_ont_11477,B,CATS,234.6691551208496,0,0,,,,False,0.25
+ore_ont_11477,B,LETHE,1.961672067642212,0,0,,,,False,2.42
+ore_ont_11477,B,AAA,TIMEOUT,,,,,,True,0.36
+ore_ont_11477,C,CATS,308.0480992794037,0,0,,,,False,0.24
+ore_ont_11477,C,LETHE,2.1843385696411133,0,0,,,,False,2.6
+ore_ont_11477,C,AAA,TIMEOUT,,,,,,True,0.38
+ore_ont_12342,A,CATS,301.58110904693604,0,0,,,,False,0.24
+ore_ont_12342,A,LETHE,1.8066604137420654,1,1,0.0,0.0,True,False,5.61
+ore_ont_12342,A,AAA,TIMEOUT,,,,,,True,0.25
+ore_ont_12342,B,CATS,301.6209924221039,0,0,,,,False,0.25
+ore_ont_12342,B,LETHE,TIMEOUT,,,,,,True,233.44
+ore_ont_12342,B,AAA,"ERROR: Exception in thread ""main"" java.lang.NullPointerException: Cannot invoke ""aterm.ATerm.hashCode()"" because the return value of ""aterm.pure.ATermApplImpl.getArgument(int)"" is null
+	at aterm.pure.ATermApplImpl.hashFunction(ATermApplImpl.java:334)
+	at aterm.pure.ATermApplImpl.<init>(ATermApplImpl.java:63)
+	at aterm.pure.PureFactory.makeAppl(PureFactory.java:174)
+	at aterm.pure.PureFactory.makeAppl(PureFactory.java:170)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1221)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1127)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1219)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1127)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1219)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1127)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1219)
+	at tableauReasoning.TableauManager.loadModel(TableauManager.java:262)
+	at MHS.MinimalHittingSetAlg.isConsistent(MinimalHittingSetAlg.java:339)
+	at MHS.MinimalHittingSetAlg.nextStepOfHS(MinimalHittingSetAlg.java:125)
+	at MHS.MinimalHittingSetAlg.addNode(MinimalHittingSetAlg.java:98)
+	at abductiveReasoning.AbductionDLReasoner.runAAA(AbductionDLReasoner.java:128)
+	at abductiveReasoning.MoreObsManager.run(MoreObsManager.java:247)
+	at abductiveReasoning.AAA.doMain(AAA.java:131)
+	at abductiveReasoning.AAA.main(AAA.java:67)",,,,,,False,0.25
+ore_ont_12342,C,CATS,302.0721056461334,0,0,,,,False,0.25
+ore_ont_12342,C,LETHE,TIMEOUT,,,,,,True,228.07
+ore_ont_12342,C,AAA,"ERROR: Exception in thread ""main"" java.lang.NullPointerException: Cannot invoke ""aterm.ATerm.hashCode()"" because the return value of ""aterm.pure.ATermApplImpl.getArgument(int)"" is null
+	at aterm.pure.ATermApplImpl.hashFunction(ATermApplImpl.java:334)
+	at aterm.pure.ATermApplImpl.<init>(ATermApplImpl.java:63)
+	at aterm.pure.PureFactory.makeAppl(PureFactory.java:174)
+	at aterm.pure.PureFactory.makeAppl(PureFactory.java:170)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1221)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1127)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1219)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1127)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1219)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1127)
+	at org.mindswap.pellet.utils.ATermUtils.nnf(ATermUtils.java:1219)
+	at tableauReasoning.TableauManager.loadModel(TableauManager.java:262)
+	at MHS.MinimalHittingSetAlg.isConsistent(MinimalHittingSetAlg.java:339)
+	at MHS.MinimalHittingSetAlg.nextStepOfHS(MinimalHittingSetAlg.java:125)
+	at MHS.MinimalHittingSetAlg.addNode(MinimalHittingSetAlg.java:98)
+	at abductiveReasoning.AbductionDLReasoner.runAAA(AbductionDLReasoner.java:128)
+	at abductiveReasoning.MoreObsManager.run(MoreObsManager.java:247)
+	at abductiveReasoning.AAA.doMain(AAA.java:131)
+	at abductiveReasoning.AAA.main(AAA.java:67)",,,,,,False,0.25
+ore_ont_13299,A,CATS,306.11678886413574,0,0,,,,False,0.25
+ore_ont_13299,A,LETHE,5.628618478775024,1,1,0.0,0.0,True,False,5.92
+ore_ont_13299,A,AAA,TIMEOUT,,,,,,True,1.02
+ore_ont_13299,B,CATS,307.1360213756561,0,0,,,,False,0.25
+ore_ont_13299,B,LETHE,TIMEOUT,,,,,,True,168.74
+ore_ont_13299,B,AAA,TIMEOUT,,,,,,True,1.02
+ore_ont_13299,C,CATS,306.4906346797943,0,0,,,,False,0.25
+ore_ont_13299,C,LETHE,TIMEOUT,,,,,,True,168.59
+ore_ont_13299,C,AAA,TIMEOUT,,,,,,True,1.02
+ore_ont_13383,A,CATS,302.5281801223755,0,0,,,,False,0.25
+ore_ont_13383,A,LETHE,1.3559832572937012,1,1,0.0,0.0,True,False,1.13
+ore_ont_13383,A,AAA,TIMEOUT,,,,,,True,0.21
+ore_ont_13383,B,CATS,301.9863028526306,0,0,,,,False,0.25
+ore_ont_13383,B,LETHE,4.722785234451294,1,0,,,False,False,10.87
+ore_ont_13383,B,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_13383,C,CATS,302.0022282600403,0,0,,,,False,0.25
+ore_ont_13383,C,LETHE,4.7283408641815186,1,0,,,False,False,11.16
+ore_ont_13383,C,AAA,TIMEOUT,,,,,,True,0.21
+ore_ont_13805,A,CATS,25.349125862121582,0,0,,,,False,0.26
+ore_ont_13805,A,LETHE,1.2664859294891357,1,1,0.0,0.0,True,False,0.79
+ore_ont_13805,A,AAA,TIMEOUT,,,,,,True,0.16
+ore_ont_13805,B,CATS,9.512080669403076,0,0,,,,False,0.26
+ore_ont_13805,B,LETHE,1.6834089756011963,0,0,,,,False,2.17
+ore_ont_13805,B,AAA,TIMEOUT,,,,,,True,0.16
+ore_ont_13805,C,CATS,19.008002042770386,0,0,,,,False,0.26
+ore_ont_13805,C,LETHE,1.7894601821899414,0,0,,,,False,2.41
+ore_ont_13805,C,AAA,TIMEOUT,,,,,,True,0.16
+ore_ont_13954,A,CATS,302.630966424942,0,0,,,,False,0.26
+ore_ont_13954,A,LETHE,1.9812235832214355,1,1,0.0,0.0,True,False,1.28
+ore_ont_13954,A,AAA,TIMEOUT,,,,,,True,0.29
+ore_ont_13954,B,CATS,302.72742533683777,0,0,,,,False,0.26
+ore_ont_13954,B,LETHE,1.7056384086608887,0,0,,,,False,1.74
+ore_ont_13954,B,AAA,TIMEOUT,,,,,,True,0.28
+ore_ont_13954,C,CATS,TIMEOUT,,,,,,True,0.04
+ore_ont_13954,C,LETHE,1.996227741241455,0,0,,,,False,1.91
+ore_ont_13954,C,AAA,TIMEOUT,,,,,,True,0.29
+ore_ont_1397,A,CATS,TIMEOUT,,,,,,True,0.04
+ore_ont_1397,A,LETHE,1.9396610260009766,1,1,0.0,0.0,True,False,1.39
+ore_ont_1397,A,AAA,TIMEOUT,,,,,,True,0.31
+ore_ont_1397,B,CATS,302.4023914337158,0,0,,,,False,0.26
+ore_ont_1397,B,LETHE,1.7824974060058594,0,0,,,,False,1.93
+ore_ont_1397,B,AAA,TIMEOUT,,,,,,True,0.29
+ore_ont_1397,C,CATS,TIMEOUT,,,,,,True,0.04
+ore_ont_1397,C,LETHE,1.9928011894226074,0,0,,,,False,2.07
+ore_ont_1397,C,AAA,TIMEOUT,,,,,,True,0.31
+ore_ont_15291,A,CATS,301.5768036842346,0,0,,,,False,0.26
+ore_ont_15291,A,LETHE,1.212876319885254,1,1,0.0,0.0,True,False,0.66
+ore_ont_15291,A,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_15291,B,CATS,301.49876976013184,0,0,,,,False,0.27
+ore_ont_15291,B,LETHE,TIMEOUT,,,,,,True,2231.32
+ore_ont_15291,B,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_15291,C,CATS,301.54118609428406,0,0,,,,False,0.26
+ore_ont_15291,C,LETHE,TIMEOUT,,,,,,True,2727.67
+ore_ont_15291,C,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_15682,A,CATS,302.12449288368225,0,0,,,,False,0.27
+ore_ont_15682,A,LETHE,1.8506779670715332,1,1,0.0,0.0,True,False,1.16
+ore_ont_15682,A,AAA,TIMEOUT,,,,,,True,0.25
+ore_ont_15682,B,CATS,301.98058342933655,0,0,,,,False,0.27
+ore_ont_15682,B,LETHE,TIMEOUT,,,,,,True,119.4
+ore_ont_15682,B,AAA,TIMEOUT,,,,,,True,0.24
+ore_ont_15682,C,CATS,302.1144526004791,0,0,,,,False,0.27
+ore_ont_15682,C,LETHE,TIMEOUT,,,,,,True,118.32
+ore_ont_15682,C,AAA,TIMEOUT,,,,,,True,0.25
+ore_ont_16191,A,CATS,302.49511432647705,0,0,,,,False,0.27
+ore_ont_16191,A,LETHE,1.5445656776428223,1,1,0.0,0.0,True,False,1.1
+ore_ont_16191,A,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_16191,B,CATS,302.1277301311493,0,0,,,,False,0.27
+ore_ont_16191,B,LETHE,4.3237364292144775,1,0,,,False,False,10.48
+ore_ont_16191,B,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_16191,C,CATS,301.9262011051178,0,0,,,,False,0.27
+ore_ont_16191,C,LETHE,4.553504228591919,1,0,,,False,False,10.75
+ore_ont_16191,C,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_16481,A,CATS,311.78740763664246,0,0,,,,False,0.28
+ore_ont_16481,A,LETHE,1.7237768173217773,1,1,0.0,0.0,True,False,0.89
+ore_ont_16481,A,AAA,TIMEOUT,,,,,,True,0.19
+ore_ont_16481,B,CATS,260.61308693885803,0,0,,,,False,0.28
+ore_ont_16481,B,LETHE,1.509032964706421,0,0,,,,False,1.08
+ore_ont_16481,B,AAA,TIMEOUT,,,,,,True,0.19
+ore_ont_16481,C,CATS,302.5284414291382,0,0,,,,False,0.27
+ore_ont_16481,C,LETHE,2.785032033920288,0,0,,,,False,1.18
+ore_ont_16481,C,AAA,TIMEOUT,,,,,,True,0.19
+ore_ont_2182,A,CATS,303.608868598938,0,0,,,,False,0.28
+ore_ont_2182,A,LETHE,2.9769651889801025,1,1,0.0,0.0,True,False,0.9
+ore_ont_2182,A,AAA,TIMEOUT,,,,,,True,0.19
+ore_ont_2182,B,CATS,250.4267599582672,0,0,,,,False,0.28
+ore_ont_2182,B,LETHE,2.117783308029175,0,0,,,,False,1.06
+ore_ont_2182,B,AAA,TIMEOUT,,,,,,True,0.18
+ore_ont_2182,C,CATS,303.35286045074463,0,0,,,,False,0.28
+ore_ont_2182,C,LETHE,2.7502944469451904,0,0,,,,False,1.17
+ore_ont_2182,C,AAA,TIMEOUT,,,,,,True,0.19
+ore_ont_3010,A,CATS,303.5382716655731,0,0,,,,False,0.28
+ore_ont_3010,A,LETHE,2.903836727142334,1,1,0.0,0.0,True,False,1.28
+ore_ont_3010,A,AAA,TIMEOUT,,,,,,True,0.29
+ore_ont_3010,B,CATS,303.33915162086487,0,0,,,,False,0.28
+ore_ont_3010,B,LETHE,2.8565258979797363,0,0,,,,False,1.76
+ore_ont_3010,B,AAA,TIMEOUT,,,,,,True,0.27
+ore_ont_3010,C,CATS,TIMEOUT,,,,,,True,0.04
+ore_ont_3010,C,LETHE,3.1453118324279785,0,0,,,,False,1.92
+ore_ont_3010,C,AAA,TIMEOUT,,,,,,True,0.29
+ore_ont_3281,A,CATS,306.35977244377136,0,0,,,,False,0.28
+ore_ont_3281,A,LETHE,5.7764246463775635,1,1,0.0,0.0,True,False,0.58
+ore_ont_3281,A,AAA,TIMEOUT,,,,,,True,0.12
+ore_ont_3281,B,CATS,305.7652175426483,0,0,,,,False,0.29
+ore_ont_3281,B,LETHE,TIMEOUT,,,,,,True,65.67
+ore_ont_3281,B,AAA,TIMEOUT,,,,,,True,0.12
+ore_ont_3281,C,CATS,305.64691948890686,0,0,,,,False,0.28
+ore_ont_3281,C,LETHE,TIMEOUT,,,,,,True,72.33
+ore_ont_3281,C,AAA,TIMEOUT,,,,,,True,0.12
+ore_ont_3411,A,CATS,302.5218245983124,0,0,,,,False,0.29
+ore_ont_3411,A,LETHE,1.9620976448059082,1,1,0.0,0.0,True,False,1.08
+ore_ont_3411,A,AAA,TIMEOUT,,,,,,True,0.22
+ore_ont_3411,B,CATS,44.17055106163025,0,0,,,,False,0.29
+ore_ont_3411,B,LETHE,TIMEOUT,,,,,,True,537.48
+ore_ont_3411,B,AAA,TIMEOUT,,,,,,True,0.25
+ore_ont_3411,C,CATS,302.0690999031067,0,0,,,,False,0.29
+ore_ont_3411,C,LETHE,TIMEOUT,,,,,,True,442.18
+ore_ont_3411,C,AAA,TIMEOUT,,,,,,True,0.25
+ore_ont_5564,A,CATS,301.9076519012451,0,0,,,,False,0.29
+ore_ont_5564,A,LETHE,1.3794686794281006,1,1,0.0,0.0,True,False,1.13
+ore_ont_5564,A,AAA,TIMEOUT,,,,,,True,0.21
+ore_ont_5564,B,CATS,302.0014703273773,0,0,,,,False,0.29
+ore_ont_5564,B,LETHE,4.579267740249634,1,0,,,False,False,11.0
+ore_ont_5564,B,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_5564,C,CATS,301.93854999542236,0,0,,,,False,0.29
+ore_ont_5564,C,LETHE,4.81228494644165,1,0,,,False,False,11.27
+ore_ont_5564,C,AAA,TIMEOUT,,,,,,True,0.21
+ore_ont_7668,A,CATS,28.28623056411743,0,0,,,,False,0.29
+ore_ont_7668,A,LETHE,1.291459083557129,1,1,0.0,0.0,True,False,0.81
+ore_ont_7668,A,AAA,TIMEOUT,,,,,,True,0.17
+ore_ont_7668,B,CATS,302.01974749565125,0,0,,,,False,0.3
+ore_ont_7668,B,LETHE,1.7673048973083496,0,0,,,,False,2.12
+ore_ont_7668,B,AAA,TIMEOUT,,,,,,True,0.16
+ore_ont_7668,C,CATS,35.347620487213135,0,0,,,,False,0.3
+ore_ont_7668,C,LETHE,1.8089866638183594,0,0,,,,False,2.34
+ore_ont_7668,C,AAA,TIMEOUT,,,,,,True,0.17
+ore_ont_778,A,CATS,301.1555931568146,0,0,,,,False,0.29
+ore_ont_778,A,LETHE,1.1656715869903564,1,1,0.0,0.0,True,False,0.77
+ore_ont_778,A,AAA,TIMEOUT,,,,,,True,0.14
+ore_ont_778,B,CATS,301.130806684494,0,0,,,,False,0.3
+ore_ont_778,B,LETHE,TIMEOUT,,,,,,True,255.54
+ore_ont_778,B,AAA,TIMEOUT,,,,,,True,0.14
+ore_ont_778,C,CATS,301.13847398757935,0,0,,,,False,0.3
+ore_ont_778,C,LETHE,TIMEOUT,,,,,,True,249.84
+ore_ont_778,C,AAA,TIMEOUT,,,,,,True,0.14
+ore_ont_8719,A,CATS,TIMEOUT,,,,,,True,0.04
+ore_ont_8719,A,LETHE,26.636496782302856,1,1,0.0,0.0,True,False,7.95
+ore_ont_8719,A,AAA,TIMEOUT,,,,,,True,1.02
+ore_ont_8719,B,CATS,TIMEOUT,,,,,,True,0.04
+ore_ont_8719,B,LETHE,TIMEOUT,,,,,,True,134.68
+ore_ont_8719,B,AAA,TIMEOUT,,,,,,True,1.02
+ore_ont_8719,C,CATS,TIMEOUT,,,,,,True,0.04
+ore_ont_8719,C,LETHE,TIMEOUT,,,,,,True,129.19
+ore_ont_8719,C,AAA,TIMEOUT,,,,,,True,1.02
+ore_ont_8948,A,CATS,302.5130569934845,0,0,,,,False,0.3
+ore_ont_8948,A,LETHE,1.3439886569976807,1,1,0.0,0.0,True,False,1.06
+ore_ont_8948,A,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_8948,B,CATS,170.514573097229,0,0,,,,False,0.31
+ore_ont_8948,B,LETHE,4.154693841934204,1,0,,,False,False,10.11
+ore_ont_8948,B,AAA,TIMEOUT,,,,,,True,0.19
+ore_ont_8948,C,CATS,301.90231108665466,0,0,,,,False,0.3
+ore_ont_8948,C,LETHE,4.395950794219971,1,0,,,False,False,10.39
+ore_ont_8948,C,AAA,TIMEOUT,,,,,,True,0.2
+ore_ont_934,B,CATS,302.01075768470764,0,0,,,,False,0.31
+ore_ont_934,B,LETHE,TIMEOUT,,,,,,True,2776.2
+ore_ont_934,B,AAA,TIMEOUT,,,,,,True,0.2

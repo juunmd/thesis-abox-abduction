@@ -1,0 +1,6 @@
+# ore_ont_15372 | eq4 | LETHE | obs=Building(a) | gt=Abbey(a) | count=4 | runtime=16.28992462158203
+
+ClassAssertion(<http://vicodi.org/ontology#Church> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Abbey> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Cathedral> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Monastery> <http://abduction.local/a>)

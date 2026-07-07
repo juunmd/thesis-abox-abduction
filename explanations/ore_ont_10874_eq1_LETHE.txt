@@ -1,0 +1,3 @@
+# ore_ont_10874 | eq1 | LETHE | obs=biochemicalReaction(a) | gt=transportWithBiochemicalReaction(a) | count=1 | runtime=2.2439746856689453
+
+ClassAssertion(<http://www.biopax.org/release/biopax-level2.owl#transportWithBiochemicalReaction> <http://abduction.local/a>)

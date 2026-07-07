@@ -1,0 +1,4 @@
+# ore_ont_1397 | eq4 | LETHE | obs=RedBordeaux(a) | gt=RedWine(a), Bordeaux(a) | count=2 | runtime=2.4323079586029053
+
+ClassAssertion(<http://www.w3.org/2002/03owlt/miscellaneous/consistent001#Bordeaux> <http://abduction.local/a>)
+ClassAssertion(<http://www.w3.org/2002/03owlt/miscellaneous/consistent001#RedWine> <http://abduction.local/a>)

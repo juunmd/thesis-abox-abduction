@@ -1,0 +1,704 @@
+ontology_name,strategy,tool_name,runtime_s,hypothesis_size,hypothesis_class_count,recovery_rate,recovered_set_precision,valid_explanation,timed_out,peak_memory_mb
+ore_ont_10874,eq1,CATS,2.2696306705474854,0,0,,,,False,270.84
+ore_ont_10874,eq1,LETHE,2.2439746856689453,1,1,1.0,1.0,True,False,197.9
+ore_ont_10874,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_10874,eq2,CATS,2.2650575637817383,0,0,,,,False,269.44
+ore_ont_10874,eq2,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" org.semanticweb.owlapi.reasoner.InconsistentOntologyException: Inconsistent ontology
+	at org.semanticweb.HermiT.Reasoner.throwInconsistentOntologyExceptionIfNecessary(Reasoner.java:2225)
+	at org.semanticweb.HermiT.Reasoner.checkPreConditions(Reasoner.java:2217)
+	at org.semanticweb.HermiT.Reasoner.isEntailed(Reasoner.java:728)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.$anonfun$simplify$2(HypothesisSimplifier.scala:40)
+	at scala.collection.immutable.Set$Set4.foreach(Set.scala:208)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.simplify(HypothesisSimplifier.scala:37)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.simplify(OWLAbducer.scala:65)
+	at abduction.DLStatementAdapter.getNextConversion(DLStatementAdapter.java:65)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:68)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,239.21
+ore_ont_10874,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_10874,eq3,CATS,2.178689956665039,0,0,,,,False,264.68
+ore_ont_10874,eq3,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" org.semanticweb.owlapi.reasoner.InconsistentOntologyException: Inconsistent ontology
+	at org.semanticweb.HermiT.Reasoner.throwInconsistentOntologyExceptionIfNecessary(Reasoner.java:2225)
+	at org.semanticweb.HermiT.Reasoner.checkPreConditions(Reasoner.java:2217)
+	at org.semanticweb.HermiT.Reasoner.isEntailed(Reasoner.java:728)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.$anonfun$simplify$2(HypothesisSimplifier.scala:40)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.simplify(HypothesisSimplifier.scala:37)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.simplify(OWLAbducer.scala:65)
+	at abduction.DLStatementAdapter.getNextConversion(DLStatementAdapter.java:65)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:68)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,223.79
+ore_ont_10874,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_10874,eq4,CATS,2.205524206161499,0,0,,,,False,261.13
+ore_ont_10874,eq4,LETHE,3.1885063648223877,1,1,0.0,0.0,False,False,270.18
+ore_ont_10874,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_10874,eq5,CATS,2.168959379196167,0,0,,,,False,263.46
+ore_ont_10874,eq5,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" org.semanticweb.owlapi.reasoner.InconsistentOntologyException: Inconsistent ontology
+	at org.semanticweb.HermiT.Reasoner.throwInconsistentOntologyExceptionIfNecessary(Reasoner.java:2225)
+	at org.semanticweb.HermiT.Reasoner.checkPreConditions(Reasoner.java:2217)
+	at org.semanticweb.HermiT.Reasoner.isEntailed(Reasoner.java:728)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.$anonfun$simplify$2(HypothesisSimplifier.scala:40)
+	at scala.collection.immutable.Set$Set4.foreach(Set.scala:208)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.simplify(HypothesisSimplifier.scala:37)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.simplify(OWLAbducer.scala:65)
+	at abduction.DLStatementAdapter.getNextConversion(DLStatementAdapter.java:65)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:68)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,195.96
+ore_ont_10874,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_11497,eq1,CATS,12.10412073135376,10,10,1.0,0.1,True,False,311.9
+ore_ont_11497,eq1,LETHE,1.4416460990905762,2,2,1.0,0.5,True,False,182.57
+ore_ont_11497,eq1,AAA,1.1132280826568604,0,0,,,,False,
+ore_ont_11497,eq2,CATS,9.274667263031006,8,8,1.0,0.125,True,False,315.81
+ore_ont_11497,eq2,LETHE,1.3475494384765625,3,3,1.0,0.3333333333333333,True,False,176.33
+ore_ont_11497,eq2,AAA,1.1586103439331055,0,0,,,,False,
+ore_ont_11497,eq3,CATS,2.3593673706054688,1,1,1.0,1.0,True,False,264.43
+ore_ont_11497,eq3,LETHE,1.3864309787750244,1,1,1.0,1.0,True,False,180.34
+ore_ont_11497,eq3,AAA,1.12923264503479,0,0,,,,False,
+ore_ont_11497,eq4,CATS,3.2223305702209473,1,1,1.0,1.0,True,False,281.46
+ore_ont_11497,eq4,LETHE,1.348968267440796,1,1,1.0,1.0,True,False,187.15
+ore_ont_11497,eq4,AAA,1.139038324356079,0,0,,,,False,
+ore_ont_11497,eq5,CATS,4.211095809936523,4,4,1.0,0.25,True,False,303.82
+ore_ont_11497,eq5,LETHE,1.3530182838439941,2,2,1.0,0.5,True,False,185.62
+ore_ont_11497,eq5,AAA,1.1538000106811523,0,0,,,,False,
+ore_ont_11685,eq1,CATS,18.16773009300232,25,25,1.0,0.04,True,False,1038.24
+ore_ont_11685,eq1,LETHE,4.511902093887329,16,16,1.0,0.0625,True,False,369.81
+ore_ont_11685,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_11685,eq2,CATS,4.88801383972168,2,2,1.0,0.5,True,False,460.49
+ore_ont_11685,eq2,LETHE,4.670421123504639,3,3,1.0,0.3333333333333333,True,False,352.27
+ore_ont_11685,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_11685,eq3,CATS,5.860710382461548,3,3,1.0,0.3333333333333333,True,False,538.42
+ore_ont_11685,eq3,LETHE,4.606943130493164,4,4,1.0,0.25,True,False,367.96
+ore_ont_11685,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_11685,eq4,CATS,11.315556287765503,9,9,1.0,0.1111111111111111,True,False,748.64
+ore_ont_11685,eq4,LETHE,4.3853864669799805,8,8,1.0,0.125,True,False,377.77
+ore_ont_11685,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_11685,eq5,CATS,12.857996940612793,12,12,1.0,0.08333333333333333,True,False,889.13
+ore_ont_11685,eq5,LETHE,2.809591054916382,12,12,1.0,0.08333333333333333,True,False,296.39
+ore_ont_11685,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_12948,eq1,CATS,1.1437392234802246,0,0,,,,False,150.11
+ore_ont_12948,eq1,LETHE,1.2489912509918213,1,1,1.0,1.0,True,False,145.28
+ore_ont_12948,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_12948,eq2,CATS,1.0680384635925293,0,0,,,,False,142.82
+ore_ont_12948,eq2,LETHE,1.3381502628326416,1,1,1.0,1.0,True,False,140.64
+ore_ont_12948,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_12948,eq3,CATS,1.0361523628234863,0,0,,,,False,145.48
+ore_ont_12948,eq3,LETHE,1.2743175029754639,5,5,1.0,0.2,True,False,146.92
+ore_ont_12948,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_12948,eq4,CATS,1.575378179550171,0,0,,,,False,150.45
+ore_ont_12948,eq4,LETHE,1.436077356338501,4,4,1.0,0.25,True,False,142.26
+ore_ont_12948,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_12948,eq5,CATS,1.1051201820373535,0,0,,,,False,149.97
+ore_ont_12948,eq5,LETHE,1.8018124103546143,13,13,1.0,0.07692307692307693,True,False,151.82
+ore_ont_12948,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_13805,eq1,CATS,121.67479276657104,0,0,,,,False,755.98
+ore_ont_13805,eq1,LETHE,1.5635573863983154,2,2,1.0,1.0,True,False,146.02
+ore_ont_13805,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_13805,eq2,CATS,121.90762209892273,0,0,,,,False,763.4
+ore_ont_13805,eq2,LETHE,1.6200830936431885,2,2,1.0,1.0,True,False,149.06
+ore_ont_13805,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_13805,eq3,CATS,121.85920929908752,0,0,,,,False,756.21
+ore_ont_13805,eq3,LETHE,1.61826491355896,2,2,1.0,1.0,True,False,152.25
+ore_ont_13805,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_13805,eq4,CATS,7.195645093917847,0,0,,,,False,269.78
+ore_ont_13805,eq4,LETHE,1.708294153213501,2,2,1.0,1.0,True,False,149.48
+ore_ont_13805,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_13805,eq5,CATS,121.61617040634155,0,0,,,,False,754.63
+ore_ont_13805,eq5,LETHE,1.5493345260620117,2,2,1.0,1.0,True,False,147.84
+ore_ont_13805,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_13885,eq1,CATS,81.69095659255981,1,1,1.0,1.0,True,False,660.75
+ore_ont_13885,eq1,LETHE,1.3010644912719727,2,2,1.0,0.5,True,False,148.72
+ore_ont_13885,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_13885,eq2,CATS,82.6839542388916,2,2,1.0,0.5,True,False,689.03
+ore_ont_13885,eq2,LETHE,1.3331973552703857,3,3,1.0,0.3333333333333333,True,False,156.46
+ore_ont_13885,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_13885,eq3,CATS,78.81340098381042,14,14,1.0,0.07142857142857142,False,False,644.89
+ore_ont_13885,eq3,LETHE,1.707763910293579,1,1,0.0,0.0,False,False,157.71
+ore_ont_13885,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_13885,eq4,CATS,79.71464538574219,6,6,1.0,0.16666666666666666,True,False,642.14
+ore_ont_13885,eq4,LETHE,6.665034055709839,1,1,0.0,0.0,True,False,676.52
+ore_ont_13885,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_13885,eq5,CATS,83.23916554450989,5,4,1.0,0.25,True,False,662.9
+ore_ont_13885,eq5,LETHE,1.8262369632720947,1,1,0.0,0.0,True,False,179.11
+ore_ont_13885,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_1397,eq1,CATS,TIMEOUT,,,,,,True,
+ore_ont_1397,eq1,LETHE,2.885963201522827,1,1,0.0,0.0,True,False,257.28
+ore_ont_1397,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_1397,eq2,CATS,133.34260773658752,0,0,,,,False,687.13
+ore_ont_1397,eq2,LETHE,2.3666434288024902,2,2,1.0,1.0,True,False,182.73
+ore_ont_1397,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_1397,eq3,CATS,295.21080350875854,0,0,,,,False,706.2
+ore_ont_1397,eq3,LETHE,2.5076353549957275,2,2,1.0,1.0,True,False,185.68
+ore_ont_1397,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_1397,eq4,CATS,122.60498714447021,0,0,,,,False,372.86
+ore_ont_1397,eq4,LETHE,2.4323079586029053,2,2,1.0,1.0,True,False,189.81
+ore_ont_1397,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_1397,eq5,CATS,126.29486918449402,0,0,,,,False,641.63
+ore_ont_1397,eq5,LETHE,2.3778977394104004,2,2,1.0,1.0,True,False,190.2
+ore_ont_1397,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_14883,eq1,CATS,121.344313621521,0,0,,,,False,657.02
+ore_ont_14883,eq1,LETHE,1.6006860733032227,2,2,1.0,1.0,True,False,208.03
+ore_ont_14883,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_14883,eq2,CATS,121.33560919761658,0,0,,,,False,668.33
+ore_ont_14883,eq2,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:208)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:392)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$negateIntoNNF$3(DeNegator.scala:391)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:97)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:391)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:381)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$denegate$1(DeNegator.scala:63)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.denegate(DeNegator.scala:63)
+	at uk.ac.man.cs.lethe.abduction.FullAbducer.abduce(FullAbducer.scala:42)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.abduce(OWLAbducer.scala:103)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:60)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,204.26
+ore_ont_14883,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_14883,eq3,CATS,121.32984375953674,0,0,,,,False,672.04
+ore_ont_14883,eq3,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:208)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:392)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$negateIntoNNF$3(DeNegator.scala:391)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:97)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:391)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:381)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$denegate$1(DeNegator.scala:63)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.denegate(DeNegator.scala:63)
+	at uk.ac.man.cs.lethe.abduction.FullAbducer.abduce(FullAbducer.scala:42)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.abduce(OWLAbducer.scala:103)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:60)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,237.52
+ore_ont_14883,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_14883,eq4,CATS,121.32296442985535,0,0,,,,False,656.11
+ore_ont_14883,eq4,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:208)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:392)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$negateIntoNNF$3(DeNegator.scala:391)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:97)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:391)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:381)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$negateIntoNNF$1(DeNegator.scala:382)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.Set$Set2.foreach(Set.scala:132)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:382)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$denegate$1(DeNegator.scala:63)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.denegate(DeNegator.scala:63)
+	at uk.ac.man.cs.lethe.abduction.FullAbducer.abduce(FullAbducer.scala:42)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.abduce(OWLAbducer.scala:103)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:60)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,231.88
+ore_ont_14883,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_14883,eq5,CATS,121.3240556716919,0,0,,,,False,652.22
+ore_ont_14883,eq5,LETHE,1.6215379238128662,2,2,1.0,0.5,True,False,217.84
+ore_ont_14883,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_15372,eq1,CATS,TIMEOUT,,,,,,True,
+ore_ont_15372,eq1,LETHE,20.299705266952515,7,7,1.0,0.14285714285714285,True,False,1517.68
+ore_ont_15372,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_15372,eq2,CATS,TIMEOUT,,,,,,True,
+ore_ont_15372,eq2,LETHE,25.66555094718933,11,11,1.0,0.09090909090909091,True,False,1425.09
+ore_ont_15372,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_15372,eq3,CATS,TIMEOUT,,,,,,True,
+ore_ont_15372,eq3,LETHE,14.727473974227905,3,3,1.0,0.3333333333333333,True,False,1517.45
+ore_ont_15372,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_15372,eq4,CATS,TIMEOUT,,,,,,True,
+ore_ont_15372,eq4,LETHE,16.28992462158203,4,4,1.0,0.25,True,False,1548.64
+ore_ont_15372,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_15372,eq5,CATS,TIMEOUT,,,,,,True,
+ore_ont_15372,eq5,LETHE,16.374533891677856,4,4,1.0,0.25,True,False,1425.43
+ore_ont_15372,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_16010,eq1,CATS,2.465543746948242,23,23,1.0,0.043478260869565216,True,False,334.4
+ore_ont_16010,eq1,LETHE,1.4142735004425049,23,23,1.0,0.043478260869565216,True,False,198.23
+ore_ont_16010,eq1,AAA,1.0974352359771729,0,0,,,,False,
+ore_ont_16010,eq2,CATS,1.616708755493164,4,4,1.0,0.25,True,False,284.98
+ore_ont_16010,eq2,LETHE,1.2432286739349365,1,1,1.0,1.0,True,False,158.76
+ore_ont_16010,eq2,AAA,1.0690090656280518,0,0,,,,False,
+ore_ont_16010,eq3,CATS,1.6981961727142334,8,8,1.0,0.125,True,False,271.79
+ore_ont_16010,eq3,LETHE,1.174795389175415,3,3,1.0,0.3333333333333333,True,False,147.47
+ore_ont_16010,eq3,AAA,1.0785026550292969,0,0,,,,False,
+ore_ont_16010,eq4,CATS,1.422945499420166,3,3,1.0,0.3333333333333333,True,False,231.48
+ore_ont_16010,eq4,LETHE,1.4766509532928467,1,1,1.0,1.0,True,False,170.77
+ore_ont_16010,eq4,AAA,1.0658495426177979,0,0,,,,False,
+ore_ont_16010,eq5,CATS,1.3415231704711914,2,2,1.0,0.5,True,False,228.41
+ore_ont_16010,eq5,LETHE,1.1894278526306152,2,2,1.0,0.5,True,False,147.05
+ore_ont_16010,eq5,AAA,1.0756292343139648,0,0,,,,False,
+ore_ont_16033,eq1,CATS,TIMEOUT,,,,,,True,
+ore_ont_16033,eq1,LETHE,1.0953280925750732,1,1,0.0,0.0,True,False,140.54
+ore_ont_16033,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_16033,eq2,CATS,TIMEOUT,,,,,,True,
+ore_ont_16033,eq2,LETHE,1.091381311416626,1,1,0.0,0.0,True,False,142.25
+ore_ont_16033,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_16033,eq3,CATS,TIMEOUT,,,,,,True,
+ore_ont_16033,eq3,LETHE,1.0887267589569092,1,1,0.0,0.0,True,False,142.47
+ore_ont_16033,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_16033,eq4,CATS,TIMEOUT,,,,,,True,
+ore_ont_16033,eq4,LETHE,1.085735559463501,1,1,0.0,0.0,True,False,144.16
+ore_ont_16033,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_16033,eq5,CATS,TIMEOUT,,,,,,True,
+ore_ont_16033,eq5,LETHE,1.0877196788787842,1,1,0.0,0.0,True,False,145.27
+ore_ont_16033,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_16166,eq1,CATS,31.85603618621826,480,480,1.0,0.0020833333333333333,True,False,1190.52
+ore_ont_16166,eq1,LETHE,1.6463615894317627,9,9,1.0,0.1111111111111111,True,False,228.21
+ore_ont_16166,eq1,AAA,4.175937175750732,0,0,,,,False,
+ore_ont_16166,eq2,CATS,2.6762912273406982,4,4,1.0,0.25,True,False,340.2
+ore_ont_16166,eq2,LETHE,1.6259255409240723,4,4,1.0,0.25,True,False,222.57
+ore_ont_16166,eq2,AAA,1.17181396484375,0,0,,,,False,
+ore_ont_16166,eq3,CATS,2.15084171295166,2,2,1.0,0.5,True,False,283.39
+ore_ont_16166,eq3,LETHE,1.4850022792816162,2,2,1.0,0.5,True,False,210.04
+ore_ont_16166,eq3,AAA,1.2748610973358154,0,0,,,,False,
+ore_ont_16166,eq4,CATS,2.3812496662139893,3,3,1.0,0.3333333333333333,True,False,291.72
+ore_ont_16166,eq4,LETHE,1.6131503582000732,3,3,1.0,0.3333333333333333,True,False,225.1
+ore_ont_16166,eq4,AAA,1.1823065280914307,0,0,,,,False,
+ore_ont_16166,eq5,CATS,2.958002805709839,6,6,1.0,0.16666666666666666,True,False,347.48
+ore_ont_16166,eq5,LETHE,1.5278747081756592,2,2,1.0,0.5,True,False,210.87
+ore_ont_16166,eq5,AAA,1.2231645584106445,0,0,,,,False,
+ore_ont_16321,eq1,CATS,1.3315329551696777,0,0,,,,False,171.33
+ore_ont_16321,eq1,LETHE,1.8539981842041016,3,3,1.0,0.3333333333333333,True,False,165.98
+ore_ont_16321,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_16321,eq2,CATS,1.2724363803863525,0,0,,,,False,183.15
+ore_ont_16321,eq2,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" org.semanticweb.owlapi.reasoner.InconsistentOntologyException: Inconsistent ontology
+	at org.semanticweb.HermiT.Reasoner.throwInconsistentOntologyExceptionIfNecessary(Reasoner.java:2225)
+	at org.semanticweb.HermiT.Reasoner.checkPreConditions(Reasoner.java:2217)
+	at org.semanticweb.HermiT.Reasoner.isEntailed(Reasoner.java:728)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.$anonfun$simplify$2(HypothesisSimplifier.scala:40)
+	at scala.collection.immutable.Set$Set4.foreach(Set.scala:208)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.simplify(HypothesisSimplifier.scala:37)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.simplify(OWLAbducer.scala:65)
+	at abduction.DLStatementAdapter.getNextConversion(DLStatementAdapter.java:65)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:68)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,159.6
+ore_ont_16321,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_16321,eq3,CATS,1.26383638381958,0,0,,,,False,171.45
+ore_ont_16321,eq3,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" org.semanticweb.owlapi.reasoner.InconsistentOntologyException: Inconsistent ontology
+	at org.semanticweb.HermiT.Reasoner.throwInconsistentOntologyExceptionIfNecessary(Reasoner.java:2225)
+	at org.semanticweb.HermiT.Reasoner.checkPreConditions(Reasoner.java:2217)
+	at org.semanticweb.HermiT.Reasoner.isEntailed(Reasoner.java:728)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.$anonfun$simplify$2(HypothesisSimplifier.scala:40)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.simplify(HypothesisSimplifier.scala:37)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.simplify(OWLAbducer.scala:65)
+	at abduction.DLStatementAdapter.getNextConversion(DLStatementAdapter.java:65)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:68)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,157.5
+ore_ont_16321,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_16321,eq4,CATS,1.2604684829711914,0,0,,,,False,185.02
+ore_ont_16321,eq4,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" org.semanticweb.owlapi.reasoner.InconsistentOntologyException: Inconsistent ontology
+	at org.semanticweb.HermiT.Reasoner.throwInconsistentOntologyExceptionIfNecessary(Reasoner.java:2225)
+	at org.semanticweb.HermiT.Reasoner.checkPreConditions(Reasoner.java:2217)
+	at org.semanticweb.HermiT.Reasoner.isEntailed(Reasoner.java:728)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.$anonfun$simplify$2(HypothesisSimplifier.scala:40)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.simplify(HypothesisSimplifier.scala:37)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.simplify(OWLAbducer.scala:65)
+	at abduction.DLStatementAdapter.getNextConversion(DLStatementAdapter.java:65)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:68)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,168.3
+ore_ont_16321,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_16321,eq5,CATS,1.2422449588775635,0,0,,,,False,171.46
+ore_ont_16321,eq5,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" org.semanticweb.owlapi.reasoner.InconsistentOntologyException: Inconsistent ontology
+	at org.semanticweb.HermiT.Reasoner.throwInconsistentOntologyExceptionIfNecessary(Reasoner.java:2225)
+	at org.semanticweb.HermiT.Reasoner.checkPreConditions(Reasoner.java:2217)
+	at org.semanticweb.HermiT.Reasoner.isEntailed(Reasoner.java:728)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.$anonfun$simplify$2(HypothesisSimplifier.scala:40)
+	at scala.collection.immutable.Set$Set4.foreach(Set.scala:208)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.simplify(HypothesisSimplifier.scala:37)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.simplify(OWLAbducer.scala:65)
+	at abduction.DLStatementAdapter.getNextConversion(DLStatementAdapter.java:65)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:68)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,149.04
+ore_ont_16321,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_1944,eq1,CATS,121.11878156661987,0,0,,,,False,637.3
+ore_ont_1944,eq1,LETHE,1.7069928646087646,1,1,0.0,0.0,True,False,157.99
+ore_ont_1944,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_1944,eq2,CATS,121.08682680130005,0,0,,,,False,644.07
+ore_ont_1944,eq2,LETHE,1.3738646507263184,3,3,1.0,0.3333333333333333,True,False,156.05
+ore_ont_1944,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_1944,eq3,CATS,121.09036183357239,0,0,,,,False,639.74
+ore_ont_1944,eq3,LETHE,1.7176194190979004,1,1,0.0,0.0,True,False,163.09
+ore_ont_1944,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_1944,eq4,CATS,121.08409070968628,0,0,,,,False,630.4
+ore_ont_1944,eq4,LETHE,1.8895959854125977,1,1,0.0,0.0,True,False,164.47
+ore_ont_1944,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_1944,eq5,CATS,121.0814700126648,0,0,,,,False,636.66
+ore_ont_1944,eq5,LETHE,2.0690388679504395,1,1,0.0,0.0,True,False,230.73
+ore_ont_1944,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_3330,eq1,CATS,1.504389762878418,2,2,1.0,0.5,True,False,225.03
+ore_ont_3330,eq1,LETHE,1.639110803604126,3,3,1.0,0.3333333333333333,True,False,146.18
+ore_ont_3330,eq1,AAA,1.150411605834961,0,0,,,,False,
+ore_ont_3330,eq2,CATS,1.550445556640625,3,3,1.0,0.3333333333333333,True,False,243.76
+ore_ont_3330,eq2,LETHE,1.4281728267669678,1,1,0.0,0.0,True,False,147.86
+ore_ont_3330,eq2,AAA,1.0339879989624023,0,0,,,,False,
+ore_ont_3330,eq3,CATS,1.5261147022247314,3,3,1.0,0.3333333333333333,True,False,248.39
+ore_ont_3330,eq3,LETHE,1.2078540325164795,3,3,1.0,0.3333333333333333,True,False,147.88
+ore_ont_3330,eq3,AAA,1.068418025970459,0,0,,,,False,
+ore_ont_3330,eq4,CATS,1.4987637996673584,3,3,1.0,0.3333333333333333,True,False,240.1
+ore_ont_3330,eq4,LETHE,1.4395592212677002,1,1,0.0,0.0,True,False,146.0
+ore_ont_3330,eq4,AAA,1.3130154609680176,0,0,,,,False,
+ore_ont_3330,eq5,CATS,1.5908195972442627,3,3,1.0,0.3333333333333333,True,False,240.36
+ore_ont_3330,eq5,LETHE,1.4019815921783447,5,5,1.0,0.2,True,False,148.21
+ore_ont_3330,eq5,AAA,1.0388855934143066,0,0,,,,False,
+ore_ont_4897,eq1,CATS,9.714187860488892,2,2,1.0,0.5,True,False,501.07
+ore_ont_4897,eq1,LETHE,1.2830870151519775,2,2,1.0,0.5,True,False,154.8
+ore_ont_4897,eq1,AAA,1.0637874603271484,0,0,,,,False,
+ore_ont_4897,eq2,CATS,11.2003333568573,3,3,1.0,0.3333333333333333,True,False,520.8
+ore_ont_4897,eq2,LETHE,1.2762773036956787,3,3,1.0,0.3333333333333333,True,False,152.72
+ore_ont_4897,eq2,AAA,0.998093843460083,0,0,,,,False,
+ore_ont_4897,eq3,CATS,8.640268087387085,4,4,1.0,0.25,True,False,522.79
+ore_ont_4897,eq3,LETHE,1.2910583019256592,1,1,1.0,1.0,True,False,152.89
+ore_ont_4897,eq3,AAA,1.170400857925415,0,0,,,,False,
+ore_ont_4897,eq4,CATS,8.984920263290405,20,20,1.0,0.05,True,False,509.54
+ore_ont_4897,eq4,LETHE,1.242170810699463,5,5,1.0,0.2,True,False,154.33
+ore_ont_4897,eq4,AAA,1.0666353702545166,0,0,,,,False,
+ore_ont_4897,eq5,CATS,8.500591039657593,6,6,1.0,0.16666666666666666,True,False,497.81
+ore_ont_4897,eq5,LETHE,1.2493054866790771,5,5,1.0,0.2,True,False,155.27
+ore_ont_4897,eq5,AAA,1.0929017066955566,0,0,,,,False,
+ore_ont_5940,eq1,CATS,11.728735446929932,21,21,1.0,0.047619047619047616,True,False,763.75
+ore_ont_5940,eq1,LETHE,3.2672078609466553,19,19,1.0,0.05263157894736842,True,False,331.32
+ore_ont_5940,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_5940,eq2,CATS,115.93032789230347,431,429,1.0,0.002331002331002331,True,False,1764.88
+ore_ont_5940,eq2,LETHE,5.128929615020752,384,384,1.0,0.0026041666666666665,True,False,417.5
+ore_ont_5940,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_5940,eq3,CATS,3.270246982574463,2,2,1.0,0.5,True,False,360.41
+ore_ont_5940,eq3,LETHE,2.4145426750183105,2,2,1.0,0.5,True,False,298.23
+ore_ont_5940,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_5940,eq4,CATS,14.700688600540161,25,25,1.0,0.04,True,False,770.28
+ore_ont_5940,eq4,LETHE,2.902148723602295,25,25,1.0,0.04,True,False,313.02
+ore_ont_5940,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_5940,eq5,CATS,96.42534184455872,685,683,1.0,0.0014641288433382138,True,False,2223.15
+ore_ont_5940,eq5,LETHE,2.531691789627075,7,7,1.0,0.14285714285714285,True,False,306.16
+ore_ont_5940,eq5,AAA,157.2498800754547,685,685,1.0,0.00145985401459854,True,False,
+ore_ont_6461,eq1,CATS,2.002840280532837,49,49,1.0,0.02040816326530612,False,False,288.08
+ore_ont_6461,eq1,LETHE,1.14448881149292,2,2,1.0,0.5,False,False,147.82
+ore_ont_6461,eq1,AAA,0.9983530044555664,0,0,,,,False,
+ore_ont_6461,eq2,CATS,1.9429571628570557,39,39,1.0,0.02564102564102564,False,False,280.75
+ore_ont_6461,eq2,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" org.semanticweb.owlapi.reasoner.InconsistentOntologyException: Inconsistent ontology
+	at org.semanticweb.HermiT.Reasoner.throwInconsistentOntologyExceptionIfNecessary(Reasoner.java:2225)
+	at org.semanticweb.HermiT.Reasoner.checkPreConditions(Reasoner.java:2217)
+	at org.semanticweb.HermiT.Reasoner.isEntailed(Reasoner.java:728)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.$anonfun$simplify$2(HypothesisSimplifier.scala:40)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.simplify(HypothesisSimplifier.scala:37)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.simplify(OWLAbducer.scala:65)
+	at abduction.DLStatementAdapter.getNextConversion(DLStatementAdapter.java:65)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:68)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,147.51
+ore_ont_6461,eq2,AAA,1.0721957683563232,0,0,,,,False,
+ore_ont_6461,eq3,CATS,2.512868881225586,1,1,1.0,1.0,True,False,290.76
+ore_ont_6461,eq3,LETHE,1.123927354812622,1,1,1.0,1.0,True,False,150.18
+ore_ont_6461,eq3,AAA,1.017552375793457,0,0,,,,False,
+ore_ont_6461,eq4,CATS,2.1419718265533447,1,1,1.0,1.0,True,False,289.04
+ore_ont_6461,eq4,LETHE,1.1495165824890137,1,1,1.0,1.0,True,False,148.93
+ore_ont_6461,eq4,AAA,1.067692518234253,0,0,,,,False,
+ore_ont_6461,eq5,CATS,1.9304234981536865,42,42,1.0,0.023809523809523808,False,False,282.74
+ore_ont_6461,eq5,LETHE,1.1293277740478516,2,2,1.0,0.5,False,False,151.3
+ore_ont_6461,eq5,AAA,1.1461164951324463,0,0,,,,False,
+ore_ont_9024,eq1,CATS,85.37745642662048,19,19,1.0,0.05263157894736842,False,False,843.54
+ore_ont_9024,eq1,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" org.semanticweb.owlapi.reasoner.InconsistentOntologyException: Inconsistent ontology
+	at org.semanticweb.HermiT.Reasoner.throwInconsistentOntologyExceptionIfNecessary(Reasoner.java:2225)
+	at org.semanticweb.HermiT.Reasoner.checkPreConditions(Reasoner.java:2217)
+	at org.semanticweb.HermiT.Reasoner.isEntailed(Reasoner.java:728)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.$anonfun$simplify$2(HypothesisSimplifier.scala:40)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at uk.ac.man.cs.lethe.abduction.HypothesisSimplifier.simplify(HypothesisSimplifier.scala:37)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.simplify(OWLAbducer.scala:65)
+	at abduction.DLStatementAdapter.getNextConversion(DLStatementAdapter.java:65)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:68)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,258.91
+ore_ont_9024,eq1,AAA,6.441307783126831,0,0,,,,False,
+ore_ont_9024,eq2,CATS,91.66316294670105,10,10,1.0,0.1,False,False,956.02
+ore_ont_9024,eq2,LETHE,1.9580037593841553,6,6,1.0,0.16666666666666666,True,False,261.59
+ore_ont_9024,eq2,AAA,6.377674341201782,0,0,,,,False,
+ore_ont_9024,eq3,CATS,85.93002104759216,13,13,1.0,0.07692307692307693,False,False,1196.62
+ore_ont_9024,eq3,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:208)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:392)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$negateIntoNNF$3(DeNegator.scala:391)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:97)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:391)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:381)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$denegate$1(DeNegator.scala:63)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.denegate(DeNegator.scala:63)
+	at uk.ac.man.cs.lethe.abduction.FullAbducer.abduce(FullAbducer.scala:42)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.abduce(OWLAbducer.scala:103)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:60)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,258.76
+ore_ont_9024,eq3,AAA,6.3719000816345215,0,0,,,,False,
+ore_ont_9024,eq4,CATS,91.9111578464508,2,2,1.0,0.5,True,False,1029.89
+ore_ont_9024,eq4,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:208)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:392)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$negateIntoNNF$3(DeNegator.scala:391)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:97)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:391)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:381)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$denegate$1(DeNegator.scala:63)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.Set$Set3.foreach(Set.scala:169)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.denegate(DeNegator.scala:63)
+	at uk.ac.man.cs.lethe.abduction.FullAbducer.abduce(FullAbducer.scala:42)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.abduce(OWLAbducer.scala:103)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:60)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,249.65
+ore_ont_9024,eq4,AAA,6.424607276916504,0,0,,,,False,
+ore_ont_9024,eq5,CATS,87.73127913475037,5,5,1.0,0.2,True,False,909.2
+ore_ont_9024,eq5,LETHE,2.7970612049102783,1,1,0.0,0.0,True,False,282.09
+ore_ont_9024,eq5,AAA,6.405291557312012,0,0,,,,False,
+ore_ont_9251,eq1,CATS,133.88755464553833,0,0,,,,False,2462.05
+ore_ont_9251,eq1,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:208)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:392)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$negateIntoNNF$3(DeNegator.scala:391)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:97)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:391)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:381)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$denegate$1(DeNegator.scala:63)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.denegate(DeNegator.scala:63)
+	at uk.ac.man.cs.lethe.abduction.FullAbducer.abduce(FullAbducer.scala:42)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.abduce(OWLAbducer.scala:103)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:60)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,413.44
+ore_ont_9251,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_9251,eq2,CATS,134.0895037651062,0,0,,,,False,2403.89
+ore_ont_9251,eq2,LETHE,2.4773383140563965,6,6,1.0,0.16666666666666666,True,False,292.27
+ore_ont_9251,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_9251,eq3,CATS,137.9499957561493,0,0,,,,False,2353.55
+ore_ont_9251,eq3,LETHE,2.4001352787017822,2,2,1.0,0.5,True,False,289.81
+ore_ont_9251,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_9251,eq4,CATS,134.09483218193054,0,0,,,,False,2389.1
+ore_ont_9251,eq4,LETHE,2.6859898567199707,18,18,1.0,0.05555555555555555,True,False,293.85
+ore_ont_9251,eq4,AAA,TIMEOUT,,,,,,True,
+ore_ont_9251,eq5,CATS,137.55743408203125,0,0,,,,False,2504.11
+ore_ont_9251,eq5,LETHE,"ERROR: WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::objectFieldOffset has been called by com.github.benmanes.caffeine.cache.UnsafeAccess (file:/C:/Users/mydah/pycharmprojects/thesis_experiment/tools/lethe-abduction.jar)
+WARNING: Please consider reporting this to the maintainers of class com.github.benmanes.caffeine.cache.UnsafeAccess
+WARNING: sun.misc.Unsafe::objectFieldOffset will be removed in a future release
+Exception in thread ""main"" java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:208)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:392)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$negateIntoNNF$3(DeNegator.scala:391)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.Set$Set1.foreach(Set.scala:97)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:391)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.negateIntoNNF(DeNegator.scala:381)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.$anonfun$denegate$1(DeNegator.scala:63)
+	at scala.collection.TraversableLike.$anonfun$map$1(TraversableLike.scala:237)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:321)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:977)
+	at scala.collection.TraversableLike.map(TraversableLike.scala:237)
+	at scala.collection.TraversableLike.map$(TraversableLike.scala:230)
+	at scala.collection.AbstractSet.scala$collection$SetLike$$super$map(Set.scala:51)
+	at scala.collection.SetLike.map(SetLike.scala:104)
+	at scala.collection.SetLike.map$(SetLike.scala:104)
+	at scala.collection.AbstractSet.map(Set.scala:51)
+	at uk.ac.man.cs.lethe.internal.dl.abduction.DeNegator$.denegate(DeNegator.scala:63)
+	at uk.ac.man.cs.lethe.abduction.FullAbducer.abduce(FullAbducer.scala:42)
+	at uk.ac.man.cs.lethe.abduction.OWLAbducer.abduce(OWLAbducer.scala:103)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd$.main(AbductionCmd.scala:60)
+	at uk.ac.man.cs.lethe.abduction.cmd.AbductionCmd.main(AbductionCmd.scala)",,,,,,False,455.24
+ore_ont_9251,eq5,AAA,TIMEOUT,,,,,,True,
+ore_ont_9557,eq1,CATS,2.403209924697876,1,1,1.0,1.0,True,False,309.28
+ore_ont_9557,eq1,LETHE,1.3957264423370361,1,1,1.0,1.0,True,False,147.94
+ore_ont_9557,eq1,AAA,TIMEOUT,,,,,,True,
+ore_ont_9557,eq2,CATS,2.372891902923584,1,1,1.0,1.0,True,False,301.69
+ore_ont_9557,eq2,LETHE,1.4083642959594727,1,1,1.0,1.0,True,False,144.91
+ore_ont_9557,eq2,AAA,TIMEOUT,,,,,,True,
+ore_ont_9557,eq3,CATS,2.727954387664795,2,2,1.0,0.5,True,False,312.21
+ore_ont_9557,eq3,LETHE,1.5818727016448975,2,2,1.0,0.5,True,False,145.65
+ore_ont_9557,eq3,AAA,TIMEOUT,,,,,,True,
+ore_ont_9805,eq1,CATS,1.8963563442230225,21,21,1.0,0.047619047619047616,True,False,314.9
+ore_ont_9805,eq1,LETHE,1.2342841625213623,22,22,1.0,0.045454545454545456,True,False,147.04
+ore_ont_9805,eq1,AAA,1.2953987121582031,0,0,,,,False,
+ore_ont_9805,eq2,CATS,1.2917053699493408,2,2,1.0,0.5,True,False,221.46
+ore_ont_9805,eq2,LETHE,1.0179853439331055,2,2,1.0,0.5,True,False,146.06
+ore_ont_9805,eq2,AAA,1.0177161693572998,0,0,,,,False,
+ore_ont_9805,eq3,CATS,1.1545157432556152,1,1,1.0,1.0,True,False,162.48
+ore_ont_9805,eq3,LETHE,1.0096545219421387,1,1,1.0,1.0,True,False,147.91
+ore_ont_9805,eq3,AAA,1.03476881980896,0,0,,,,False,
+ore_ont_9805,eq4,CATS,1.1550889015197754,1,1,1.0,1.0,True,False,169.98
+ore_ont_9805,eq4,LETHE,1.066281795501709,1,1,1.0,1.0,True,False,146.44
+ore_ont_9805,eq4,AAA,1.0144586563110352,0,0,,,,False,
+univ-bench,eq1,CATS,1.3638663291931152,2,2,1.0,0.5,True,False,195.78
+univ-bench,eq1,LETHE,1.0968832969665527,2,2,1.0,0.5,True,False,142.36
+univ-bench,eq1,AAA,1.0256550312042236,0,0,,,,False,
+univ-bench,eq2,CATS,1.4036448001861572,3,3,1.0,0.3333333333333333,True,False,213.9
+univ-bench,eq2,LETHE,1.1036889553070068,3,3,1.0,0.3333333333333333,True,False,142.99
+univ-bench,eq2,AAA,1.0438668727874756,0,0,,,,False,
+univ-bench,eq3,CATS,1.2044060230255127,1,1,1.0,1.0,True,False,174.71
+univ-bench,eq3,LETHE,1.3178470134735107,1,1,0.0,0.0,True,False,148.84
+univ-bench,eq3,AAA,1.027442216873169,0,0,,,,False,
+univ-bench,eq4,CATS,1.8781726360321045,14,14,1.0,0.07142857142857142,True,False,265.79
+univ-bench,eq4,LETHE,1.2213835716247559,2,2,1.0,0.5,True,False,149.97
+univ-bench,eq4,AAA,1.0119028091430664,0,0,,,,False,
+univ-bench,eq5,CATS,1.7677438259124756,9,9,1.0,0.1111111111111111,True,False,253.64
+univ-bench,eq5,LETHE,1.272087574005127,4,4,1.0,0.25,True,False,149.7
+univ-bench,eq5,AAA,1.1181364059448242,0,0,,,,False,

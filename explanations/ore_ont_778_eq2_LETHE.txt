@@ -1,0 +1,6 @@
+# ore_ont_778 | eq2 | LETHE | obs=AnimalByLocomotionPartition(a) | gt=AnimalByAnatomyPartition(a) | count=4 | runtime=1.8354613780975342
+
+ClassAssertion(<http://www.imbi.uni-freiburg.de/ontologies/2011/Animals.owl#DivingAnimal> <http://abduction.local/a>)
+ClassAssertion(<http://www.imbi.uni-freiburg.de/ontologies/2011/Animals.owl#WalkingAnimal> <http://abduction.local/a>)
+ClassAssertion(<http://www.imbi.uni-freiburg.de/ontologies/2011/Animals.owl#SwimmingAnimal> <http://abduction.local/a>)
+ClassAssertion(<http://www.imbi.uni-freiburg.de/ontologies/2011/Animals.owl#FlyingAnimal> <http://abduction.local/a>)

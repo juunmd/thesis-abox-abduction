@@ -1,0 +1,9 @@
+# ore_ont_15372 | eq1 | LETHE | obs=Abstract-Notion(a) | gt=Art-Form(a) | count=7 | runtime=20.299705266952515
+
+ClassAssertion(<http://vicodi.org/ontology#Art-Form> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Language> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Measurable-Trend> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Ideology> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Intellectual-Construct> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Artistic-Style> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Idea> <http://abduction.local/a>)

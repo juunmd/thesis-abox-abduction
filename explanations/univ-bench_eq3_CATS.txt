@@ -1,0 +1,3 @@
+# univ-bench | eq3 | CATS | obs=Course(a) | gt=GraduateCourse(a) | count=1 | runtime=1.2044060230255127
+
+GraduateCourse(a)

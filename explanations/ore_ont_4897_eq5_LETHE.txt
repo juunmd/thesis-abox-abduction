@@ -1,0 +1,7 @@
+# ore_ont_4897 | eq5 | LETHE | obs=IAO_0000028(a) | gt=IAO_0000017(a) | count=5 | runtime=1.2493054866790771
+
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000029> <http://abduction.local/a>)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000129> <http://abduction.local/a>)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000131> <http://abduction.local/a>)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000017> <http://abduction.local/a>)
+ClassAssertion(<http://purl.obolibrary.org/obo/IAO_0000132> <http://abduction.local/a>)

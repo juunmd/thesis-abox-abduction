@@ -1,0 +1,5 @@
+# ore_ont_13885 | eq2 | LETHE | obs=CorporateBody(a) | gt=Group(a) | count=3 | runtime=1.3331973552703857
+
+ClassAssertion(<http://xmlns.com/foaf/0.1/Group> <http://abduction.local/a>)
+ClassAssertion(<http://xmlns.com/foaf/0.1/Organization> <http://abduction.local/a>)
+ClassAssertion(ObjectComplementOf(<http://xmlns.com/foaf/0.1/Person>) <http://abduction.local/a>)

@@ -1,0 +1,10 @@
+# ore_ont_11685 | eq4 | LETHE | obs=AseUidPG(a) | gt=AseType(a) | count=8 | runtime=4.3853864669799805
+
+ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#TfeType> <http://abduction.local/a>)
+ClassAssertion(ObjectSomeValuesFrom(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#AseUid> owl:Thing) <http://abduction.local/a>)
+ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#OfaUidType> <http://abduction.local/a>)
+ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#G20> <http://abduction.local/a>)
+ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#OaeUidType> <http://abduction.local/a>)
+ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#FceType> <http://abduction.local/a>)
+ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#SaeUidType> <http://abduction.local/a>)
+ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#AseType> <http://abduction.local/a>)

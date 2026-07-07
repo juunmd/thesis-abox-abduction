@@ -1,0 +1,5 @@
+# ore_ont_11685 | eq2 | LETHE | obs=AhsUidPG(a) | gt=AgaUidType(a) | count=3 | runtime=4.670421123504639
+
+ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#AgaUidType> <http://abduction.local/a>)
+ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#AhsType> <http://abduction.local/a>)
+ClassAssertion(ObjectSomeValuesFrom(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/d0308acc-16de-419c-9220-1e40df59fbf8_AIXM.owl#AhsUid> owl:Thing) <http://abduction.local/a>)

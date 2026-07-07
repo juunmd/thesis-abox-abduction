@@ -1,0 +1,8 @@
+# ore_ont_13885 | eq4 | CATS | obs=Expression(a) | gt=Data(a) | count=6 | runtime=79.71464538574219
+
+Data(a)
+Sound(a)
+Performance(a)
+Text(a)
+Image(a)
+MovingImage(a)

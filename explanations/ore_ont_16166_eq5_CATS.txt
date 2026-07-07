@@ -1,0 +1,8 @@
+# ore_ont_16166 | eq5 | CATS | obs=AirstreamProperty(a) | gt=PulmonicProperty(a) | count=6 | runtime=2.958002805709839
+
+PlusFortis(a)
+PulmonicProperty(a)
+MinusFortis(a)
+VelaricProperty(a)
+PlusClick(a)
+MinusClick(a)

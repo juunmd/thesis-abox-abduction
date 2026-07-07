@@ -1,0 +1,7 @@
+# ore_ont_12948 | eq3 | LETHE | obs=Context_HardwareEntity(a) | gt=BluetoothProfile(a) | count=5 | runtime=1.2743175029754639
+
+ClassAssertion(<http://www.w3.org/2007/uwa/context/hardware.owl#BluetoothProfile> <http://abduction.local/a>)
+ClassAssertion(<http://www.w3.org/2007/uwa/context/hardware.owl#HardwareComponent> <http://abduction.local/a>)
+ClassAssertion(<http://www.w3.org/2007/uwa/context/hardware.owl#BluetoothStatus> <http://abduction.local/a>)
+ClassAssertion(<http://www.w3.org/2007/uwa/context/hardware.owl#PointingResolution> <http://abduction.local/a>)
+ClassAssertion(<http://www.w3.org/2007/uwa/context/hardware.owl#HardwareStatus> <http://abduction.local/a>)

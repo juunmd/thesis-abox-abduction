@@ -1,0 +1,4 @@
+# ore_ont_16166 | eq3 | CATS | obs=Adposition(a) | gt=Postposition(a) | count=2 | runtime=2.15084171295166
+
+Preposition(a)
+Postposition(a)

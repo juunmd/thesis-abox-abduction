@@ -1,0 +1,6 @@
+# univ-bench | eq5 | LETHE | obs=Faculty(a) | gt=Lecturer(a) | count=4 | runtime=1.272087574005127
+
+ClassAssertion(<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Professor> <http://abduction.local/a>)
+ClassAssertion(ObjectSomeValuesFrom(<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#teacherOf> owl:Thing) <http://abduction.local/a>)
+ClassAssertion(<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#Lecturer> <http://abduction.local/a>)
+ClassAssertion(<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#PostDoc> <http://abduction.local/a>)

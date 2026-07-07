@@ -1,0 +1,4 @@
+# ore_ont_9805 | eq2 | LETHE | obs=RELAPPROXC58(a) | gt=RELAPPROXC69(a) | count=2 | runtime=1.0179853439331055
+
+ClassAssertion(<http://www.absoluteiri.edu/RELAPPROXC69> <http://abduction.local/a>)
+ClassAssertion(<http://www.absoluteiri.edu/RELAPPROXC71> <http://abduction.local/a>)

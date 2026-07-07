@@ -1,0 +1,5 @@
+# ore_ont_778 | eq1 | LETHE | obs=AnimalByHabitatPartition(a) | gt=AnimalByAnatomyPartition(a) | count=3 | runtime=1.796668291091919
+
+ClassAssertion(<http://www.imbi.uni-freiburg.de/ontologies/2011/Animals.owl#CoastalAnimal> <http://abduction.local/a>)
+ClassAssertion(<http://www.imbi.uni-freiburg.de/ontologies/2011/Animals.owl#LandAnimal> <http://abduction.local/a>)
+ClassAssertion(<http://www.imbi.uni-freiburg.de/ontologies/2011/Animals.owl#MarineAnimal> <http://abduction.local/a>)

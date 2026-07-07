@@ -1,0 +1,5 @@
+# ore_ont_11497 | eq2 | LETHE | obs=XAO_0003000(a) | gt=XAO_0003004(a) | count=3 | runtime=1.3475494384765625
+
+ClassAssertion(<http://purl.obolibrary.org/obo/XAO_0003004> <http://abduction.local/a>)
+ClassAssertion(<http://purl.obolibrary.org/obo/XAO_0003012> <http://abduction.local/a>)
+ClassAssertion(<http://purl.obolibrary.org/obo/XAO_0003040> <http://abduction.local/a>)

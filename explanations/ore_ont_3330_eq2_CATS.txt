@@ -1,0 +1,5 @@
+# ore_ont_3330 | eq2 | CATS | obs=Award(a) | gt=Best_Applications_Paper_Award(a) | count=3 | runtime=1.550445556640625
+
+Best_Applications_Paper_Award(a)
+Best_Research_Paper_Award(a)
+Best_Student_Paper_Award(a)

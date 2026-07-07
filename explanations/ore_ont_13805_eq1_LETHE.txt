@@ -1,0 +1,4 @@
+# ore_ont_13805 | eq1 | LETHE | obs=DryRedWine(a) | gt=RedWine(a), DryWine(a) | count=2 | runtime=1.5635573863983154
+
+ClassAssertion(<http://swat.cse.lehigh.edu/onto/wine.owl#DryWine> <http://abduction.local/a>)
+ClassAssertion(<http://swat.cse.lehigh.edu/onto/wine.owl#RedWine> <http://abduction.local/a>)

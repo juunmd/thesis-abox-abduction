@@ -1,0 +1,6 @@
+# ore_ont_16166 | eq2 | CATS | obs=Adjectival(a) | gt=ComparativeAdjective(a) | count=4 | runtime=2.6762912273406982
+
+ComparativeAdjective(a)
+PlainAdjective(a)
+VerbalAdjective(a)
+SuperlativeAdjective(a)

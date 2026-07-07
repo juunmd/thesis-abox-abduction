@@ -1,0 +1,5 @@
+# ore_ont_15372 | eq3 | LETHE | obs=Artist(a) | gt=Composer(a) | count=3 | runtime=14.727473974227905
+
+ClassAssertion(<http://vicodi.org/ontology#Composer> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Painter> <http://abduction.local/a>)
+ClassAssertion(<http://vicodi.org/ontology#Sculptor> <http://abduction.local/a>)
