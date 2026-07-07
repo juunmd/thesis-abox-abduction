@@ -1,4 +1,0 @@
-# ore_ont_13885 | eq2 | CATS | obs=CorporateBody(a) | gt=Group(a) | count=2 | runtime=82.6839542388916
-
-Group(a)
-Organization(a)

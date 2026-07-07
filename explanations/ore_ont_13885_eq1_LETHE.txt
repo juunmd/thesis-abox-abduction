@@ -1,4 +1,0 @@
-# ore_ont_13885 | eq1 | LETHE | obs=Person(a) | gt=Person(a) | count=2 | runtime=1.3010644912719727
-
-ClassAssertion(<http://purl.org/vocab/frbr/core#Person> <http://abduction.local/a>)
-ClassAssertion(ObjectComplementOf(<http://purl.org/vocab/frbr/core#CorporateBody>) <http://abduction.local/a>)

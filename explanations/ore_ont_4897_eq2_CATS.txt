@@ -1,5 +1,0 @@
-# ore_ont_4897 | eq2 | CATS | obs=IAO_0000003(a) | gt=UO_0000001(a) | count=3 | runtime=11.2003333568573
-
-UO_0000003(a)
-UO_0000001(a)
-UO_0000002(a)

@@ -1,4 +1,0 @@
-# ore_ont_1397 | eq5 | LETHE | obs=RedBurgundy(a) | gt=RedWine(a), Burgundy(a) | count=2 | runtime=2.3778977394104004
-
-ClassAssertion(<http://www.w3.org/2002/03owlt/miscellaneous/consistent001#Burgundy> <http://abduction.local/a>)
-ClassAssertion(<http://www.w3.org/2002/03owlt/miscellaneous/consistent001#RedWine> <http://abduction.local/a>)

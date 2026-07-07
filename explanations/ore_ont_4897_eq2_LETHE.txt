@@ -1,5 +1,0 @@
-# ore_ont_4897 | eq2 | LETHE | obs=IAO_0000003(a) | gt=UO_0000001(a) | count=3 | runtime=1.2762773036956787
-
-ClassAssertion(<http://purl.org/obo/owl/UO#UO_0000001> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/obo/owl/UO#UO_0000002> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/obo/owl/UO#UO_0000003> <http://abduction.local/a>)

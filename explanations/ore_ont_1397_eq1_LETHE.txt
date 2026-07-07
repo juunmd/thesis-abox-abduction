@@ -1,3 +1,0 @@
-# ore_ont_1397 | eq1 | LETHE | obs=Wine(a) | gt=Wine(a) | count=1 | runtime=2.885963201522827
-
-ClassAssertion(ObjectSomeValuesFrom(ObjectInverseOf(<http://www.w3.org/2002/03owlt/miscellaneous/consistent002#hasDrink>) owl:Thing) <http://abduction.local/a>)

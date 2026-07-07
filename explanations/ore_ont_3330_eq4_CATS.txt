@@ -1,5 +1,0 @@
-# ore_ont_3330 | eq4 | CATS | obs=Deadline(a) | gt=Deadline_Abstract_Submission(a) | count=3 | runtime=1.4987637996673584
-
-Deadline_Paper_Submission(a)
-Deadline_Abstract_Submission(a)
-Deadline_Author_notification(a)

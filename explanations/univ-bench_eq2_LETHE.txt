@@ -1,5 +1,0 @@
-# univ-bench | eq2 | LETHE | obs=Article(a) | gt=ConferencePaper(a) | count=3 | runtime=1.1036889553070068
-
-ClassAssertion(<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#ConferencePaper> <http://abduction.local/a>)
-ClassAssertion(<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#JournalArticle> <http://abduction.local/a>)
-ClassAssertion(<http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#TechnicalReport> <http://abduction.local/a>)

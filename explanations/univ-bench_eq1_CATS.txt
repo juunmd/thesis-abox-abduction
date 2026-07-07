@@ -1,4 +1,0 @@
-# univ-bench | eq1 | CATS | obs=AdministrativeStaff(a) | gt=ClericalStaff(a) | count=2 | runtime=1.3638663291931152
-
-ClericalStaff(a)
-SystemsStaff(a)

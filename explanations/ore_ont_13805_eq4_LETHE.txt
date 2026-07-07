@@ -1,4 +1,0 @@
-# ore_ont_13805 | eq4 | LETHE | obs=RedBurgundy(a) | gt=RedWine(a), Burgundy(a) | count=2 | runtime=1.708294153213501
-
-ClassAssertion(<http://swat.cse.lehigh.edu/onto/wine.owl#Burgundy> <http://abduction.local/a>)
-ClassAssertion(<http://swat.cse.lehigh.edu/onto/wine.owl#RedWine> <http://abduction.local/a>)

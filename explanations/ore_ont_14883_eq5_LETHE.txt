@@ -1,4 +1,0 @@
-# ore_ont_14883 | eq5 | LETHE | obs=qood(a) | gt=quality-principle(a) | count=2 | runtime=1.6215379238128662
-
-ClassAssertion(<http://www.loa-cnr.it/ontologies/EVAL/oQual.owl#quality-principle> <http://abduction.local/a>)
-ClassAssertion(<http://www.loa-cnr.it/ontologies/OD/OntologyDesign.owl#design-pattern-schema> <http://abduction.local/a>)

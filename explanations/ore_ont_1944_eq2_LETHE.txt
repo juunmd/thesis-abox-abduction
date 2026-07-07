@@ -1,5 +1,0 @@
-# ore_ont_1944 | eq2 | LETHE | obs=N-Ary-Relations(a) | gt=OpeningHoursSpecification(a) | count=3 | runtime=1.3738646507263184
-
-ClassAssertion(<http://purl.org/goodrelations/v1#OpeningHoursSpecification> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/goodrelations/v1#TypeAndQuantityNode> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/goodrelations/v1#WarrantyPromise> <http://abduction.local/a>)

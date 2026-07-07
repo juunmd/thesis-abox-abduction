@@ -1,4 +1,0 @@
-# ore_ont_1397 | eq2 | LETHE | obs=DryRedWine(a) | gt=RedWine(a), DryWine(a) | count=2 | runtime=2.3666434288024902
-
-ClassAssertion(<http://www.w3.org/2002/03owlt/miscellaneous/consistent001#DryWine> <http://abduction.local/a>)
-ClassAssertion(<http://www.w3.org/2002/03owlt/miscellaneous/consistent001#RedWine> <http://abduction.local/a>)

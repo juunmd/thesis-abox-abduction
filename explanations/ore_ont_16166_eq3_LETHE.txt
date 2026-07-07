@@ -1,4 +1,0 @@
-# ore_ont_16166 | eq3 | LETHE | obs=Adposition(a) | gt=Postposition(a) | count=2 | runtime=1.4850022792816162
-
-ClassAssertion(<http://purl.org/linguistics/gold/Postposition> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/linguistics/gold/Preposition> <http://abduction.local/a>)

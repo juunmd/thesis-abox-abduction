@@ -1,6 +1,0 @@
-# ore_ont_12948 | eq4 | LETHE | obs=Display(a) | gt=CharacterDisplay(a) | count=4 | runtime=1.436077356338501
-
-ClassAssertion(<http://www.w3.org/2007/uwa/context/hardware.owl#GraphicDisplay> <http://abduction.local/a>)
-ClassAssertion(<http://www.w3.org/2007/uwa/context/hardware.owl#TactileDisplay> <http://abduction.local/a>)
-ClassAssertion(<http://www.w3.org/2007/uwa/context/hardware.owl#CharacterDisplay> <http://abduction.local/a>)
-ClassAssertion(ObjectSomeValuesFrom(ObjectInverseOf(<http://www.w3.org/2007/uwa/context/hardware.owl#display>) owl:Thing) <http://abduction.local/a>)

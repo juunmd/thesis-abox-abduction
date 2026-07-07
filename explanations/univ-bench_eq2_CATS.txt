@@ -1,5 +1,0 @@
-# univ-bench | eq2 | CATS | obs=Article(a) | gt=ConferencePaper(a) | count=3 | runtime=1.4036448001861572
-
-ConferencePaper(a)
-TechnicalReport(a)
-JournalArticle(a)

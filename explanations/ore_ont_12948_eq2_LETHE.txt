@@ -1,3 +1,0 @@
-# ore_ont_12948 | eq2 | LETHE | obs=Context_Entity(a) | gt=Context_HardwareEntity(a) | count=1 | runtime=1.3381502628326416
-
-ClassAssertion(<http://www.w3.org/2007/uwa/context/hardware.owl#Context_HardwareEntity> <http://abduction.local/a>)

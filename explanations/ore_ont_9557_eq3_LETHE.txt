@@ -1,4 +1,0 @@
-# ore_ont_9557 | eq3 | LETHE | obs=Name(a) | gt=DeceasedName(a) | count=2 | runtime=1.5818727016448975
-
-ClassAssertion(<http://osm.cs.byu.edu/CS652s04/ontologies/OWL/obituary.owl#DeceasedName> <http://abduction.local/a>)
-ClassAssertion(<http://osm.cs.byu.edu/CS652s04/ontologies/OWL/obituary.owl#RelativeName> <http://abduction.local/a>)

@@ -1,7 +1,0 @@
-# ore_ont_13885 | eq5 | CATS | obs=ResponsibleEntity(a) | gt=CorporateBody(a) | count=5 | runtime=83.23916554450989
-
-Person(a)
-Group(a)
-CorporateBody(a)
-Person(a)
-Organization(a)

@@ -1,8 +1,0 @@
-# ore_ont_4897 | eq5 | CATS | obs=IAO_0000028(a) | gt=IAO_0000017(a) | count=6 | runtime=8.500591039657593
-
-IAO_0000131(a)
-IAO_0000031(a)
-IAO_0000017(a)
-IAO_0000132(a)
-IAO_0000129(a)
-IAO_0000029(a)

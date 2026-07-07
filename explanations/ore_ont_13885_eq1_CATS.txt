@@ -1,3 +1,0 @@
-# ore_ont_13885 | eq1 | CATS | obs=Person(a) | gt=Person(a) | count=1 | runtime=81.69095659255981
-
-Person(a)

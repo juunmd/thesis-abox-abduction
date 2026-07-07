@@ -1,6 +1,0 @@
-# ore_ont_15372 | eq5 | LETHE | obs=Conceptual-Object(a) | gt=Badge(a) | count=4 | runtime=16.374533891677856
-
-ClassAssertion(<http://vicodi.org/ontology#Badge> <http://abduction.local/a>)
-ClassAssertion(<http://vicodi.org/ontology#Ritual> <http://abduction.local/a>)
-ClassAssertion(<http://vicodi.org/ontology#Pastime> <http://abduction.local/a>)
-ClassAssertion(<http://vicodi.org/ontology#Religious-Practice> <http://abduction.local/a>)

@@ -1,4 +1,0 @@
-# ore_ont_16166 | eq5 | LETHE | obs=AirstreamProperty(a) | gt=PulmonicProperty(a) | count=2 | runtime=1.5278747081756592
-
-ClassAssertion(<http://purl.org/linguistics/gold/PulmonicProperty> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/linguistics/gold/VelaricProperty> <http://abduction.local/a>)

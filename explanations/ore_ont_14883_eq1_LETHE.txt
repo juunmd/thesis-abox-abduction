@@ -1,4 +1,0 @@
-# ore_ont_14883 | eq1 | LETHE | obs=accountableKnowledgeCreatorRole(a) | gt=knowledgeCreatorRole(a), accountablePerformerRole(a) | count=2 | runtime=1.6006860733032227
-
-ClassAssertion(<http://www.loa-cnr.it/ontologies/OD/OntologyDesign.owl#accountablePerformerRole> <http://abduction.local/a>)
-ClassAssertion(<http://www.loa-cnr.it/ontologies/OD/OntologyDesign.owl#knowledgeCreatorRole> <http://abduction.local/a>)

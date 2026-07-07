@@ -1,4 +1,0 @@
-# ore_ont_11685 | eq2 | CATS | obs=AhsUidPG(a) | gt=AgaUidType(a) | count=2 | runtime=4.88801383972168
-
-AgaUidType(a)
-AhsType(a)

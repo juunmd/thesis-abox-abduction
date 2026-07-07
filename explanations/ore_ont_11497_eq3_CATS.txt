@@ -1,3 +1,0 @@
-# ore_ont_11497 | eq3 | CATS | obs=XAO_0003011(a) | gt=XAO_0000001(a) | count=1 | runtime=2.3593673706054688
-
-XAO_0000001(a)

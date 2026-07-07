@@ -1,3 +1,0 @@
-# ore_ont_16033 | eq1 | LETHE | obs=ConsumableThing(a) | gt=EdibleThing(a) | count=1 | runtime=1.0953280925750732
-
-ClassAssertion(<file:/media/owl/Seagate%20Expansion%20Drive/mowlcorp_rep/mowlcorp_2014.10.07_orig/files/0863b2c2-8cf2-462e-831e-87468730b22f_food.owl#ConsumableThing> <http://abduction.local/a>)

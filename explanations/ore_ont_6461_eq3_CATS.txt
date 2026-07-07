@@ -1,3 +1,0 @@
-# ore_ont_6461 | eq3 | CATS | obs=CARO_0000004(a) | gt=CARO_0000063(a) | count=1 | runtime=2.512868881225586
-
-CARO_0000063(a)

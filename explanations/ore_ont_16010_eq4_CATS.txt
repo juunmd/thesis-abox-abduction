@@ -1,5 +1,0 @@
-# ore_ont_16010 | eq4 | CATS | obs=CHEBI_18375(a) | gt=CHEBI_19834(a) | count=3 | runtime=1.422945499420166
-
-CHEBI_17489(a)
-CHEBI_19834(a)
-CHEBI_16356(a)

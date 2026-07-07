@@ -1,3 +1,0 @@
-# ore_ont_778 | eq3 | LETHE | obs=AnimalByNutritionPartition(a) | gt=AnimalByLocomotionPartition(a) | count=1 | runtime=1.2716403007507324
-
-ClassAssertion(<http://www.imbi.uni-freiburg.de/ontologies/2011/Animals.owl#AnimalByNutritionPartition> <http://abduction.local/a>)

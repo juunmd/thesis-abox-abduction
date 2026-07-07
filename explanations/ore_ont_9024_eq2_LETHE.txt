@@ -1,8 +1,0 @@
-# ore_ont_9024 | eq2 | LETHE | obs=Affecting(a) | gt=Complicating(a) | count=6 | runtime=1.9580037593841553
-
-ClassAssertion(<http://purl.org/biotop/core/dev#ManagingCare> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/biotop/core/dev#Interacting> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/biotop/core/dev#TreatingCondition> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/biotop/core/dev#Complicating> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/biotop/core/dev#Disrupting> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/biotop/core/dev#TreatingPerson> <http://abduction.local/a>)

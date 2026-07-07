@@ -1,6 +1,0 @@
-# ore_ont_16166 | eq2 | LETHE | obs=Adjectival(a) | gt=ComparativeAdjective(a) | count=4 | runtime=1.6259255409240723
-
-ClassAssertion(<http://purl.org/linguistics/gold/VerbalAdjective> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/linguistics/gold/SuperlativeAdjective> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/linguistics/gold/PlainAdjective> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/linguistics/gold/ComparativeAdjective> <http://abduction.local/a>)

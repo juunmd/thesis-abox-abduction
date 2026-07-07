@@ -1,7 +1,0 @@
-# ore_ont_3330 | eq5 | LETHE | obs=Document(a) | gt=Abstract(a) | count=5 | runtime=1.4019815921783447
-
-ClassAssertion(<http://www.owl-ontologies.com/unnamed.owl#Paper> <http://abduction.local/a>)
-ClassAssertion(ObjectSomeValuesFrom(<http://www.owl-ontologies.com/unnamed.owl#presentationed_by> owl:Thing) <http://abduction.local/a>)
-ClassAssertion(ObjectSomeValuesFrom(ObjectInverseOf(<http://www.owl-ontologies.com/unnamed.owl#presentation>) owl:Thing) <http://abduction.local/a>)
-ClassAssertion(<http://www.owl-ontologies.com/unnamed.owl#Review> <http://abduction.local/a>)
-ClassAssertion(<http://www.owl-ontologies.com/unnamed.owl#Abstract> <http://abduction.local/a>)

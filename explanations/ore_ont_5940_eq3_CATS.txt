@@ -1,4 +1,0 @@
-# ore_ont_5940 | eq3 | CATS | obs=IAO_0000025(a) | gt=SWO_0000274(a) | count=2 | runtime=3.270246982574463
-
-SWO_0000415(a)
-SWO_0000274(a)

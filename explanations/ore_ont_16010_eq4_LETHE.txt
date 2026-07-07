@@ -1,3 +1,0 @@
-# ore_ont_16010 | eq4 | LETHE | obs=CHEBI_18375(a) | gt=CHEBI_19834(a) | count=1 | runtime=1.4766509532928467
-
-ClassAssertion(<http://ontology.neuinfo.org/NIF/BiomaterialEntities/NIF-Chemical.owl#CHEBI_19834> <http://abduction.local/a>)

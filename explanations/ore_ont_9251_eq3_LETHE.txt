@@ -1,4 +1,0 @@
-# ore_ont_9251 | eq3 | LETHE | obs=TADS_0000245(a) | gt=TADS_0000237(a) | count=2 | runtime=2.4001352787017822
-
-ClassAssertion(<http://purl.org/obo/owl/TADS#TADS_0000237> <http://abduction.local/a>)
-ClassAssertion(<http://purl.org/obo/owl/TADS#TADS_0000247> <http://abduction.local/a>)

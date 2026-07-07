@@ -1,5 +1,0 @@
-# ore_ont_16166 | eq4 | CATS | obs=Affix(a) | gt=Infix(a) | count=3 | runtime=2.3812496662139893
-
-Infix(a)
-Prefix(a)
-Suffix(a)
