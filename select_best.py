@@ -1,41 +1,19 @@
-"""
-select_ontologies.py  —  pick a stratified ORE sample WITHOUT loading all
-2000 files through Java.
 
-Usage:
-    python select_ontologies.py "C:\\...\\pool_sample\\files"
-    python select_ontologies.py "C:\\...\\pool_sample\\files" --deep 90
-
-Two phases:
-  PHASE 1 (fast, all files):   pure text scan — file size + whether the file
-      has subclass / equivalence axioms. No owlapy, no Java. Drops code
-      files and ontologies with no usable axioms.
-  PHASE 2 (slow, shortlist):   owlapy load + OWL 2 DL check + EXACT problem
-      count, run ONLY on a size-stratified shortlist (default 90 files).
-
-Outputs:
-  quick_scan.csv          - every usable ontology (phase 1): file, size, markers
-  ontology_selection.csv  - the deeply-analysed shortlist (phase 2), sorted
-  + a suggested ~24 stratified sample printed at the end.
-
-Keep this next to equivalence_strategy.py.
-"""
 import sys
 import os
 import csv
 import glob
 
-SMALL_MAX = 50          # exact-class buckets (phase 2)
+SMALL_MAX = 50
 MEDIUM_MAX = 150
 SAMPLE_PER_BUCKET = 8
-DEEP_SHORTLIST = 120    # how many files to deep-analyse (phase 2)
-MAX_CLASSES = 800       # exclude impractical giants from the sample
-MAX_FILE_MB = 40        # phase-1: skip monster files (avoid loading them)
+DEEP_SHORTLIST = 120
+MAX_CLASSES = 800
+MAX_FILE_MB = 40
 
 _SKIP_EXT = {".py", ".csv", ".txt", ".md", ".json", ".log", ".pyc", ".ini"}
 
 
-# ----------------------------- PHASE 1 (fast) -----------------------------
 def quick_scan(path):
     """No-Java scan: returns dict(size, has_problem) or None to skip."""
     ext = os.path.splitext(path)[1].lower()
@@ -58,7 +36,6 @@ def quick_scan(path):
     return {"size": size, "has_problem": has_problem}
 
 
-# ----------------------------- PHASE 2 (slow) -----------------------------
 def analyze(path):
     from owlapy.owl_ontology import SyncOntology
     from equivalence_strategy import _equivalence_pairs, _subclass_pairs
@@ -97,7 +74,6 @@ def main(pool_dir, deep_n=DEEP_SHORTLIST):
         print(f"No files found in {pool_dir!r}")
         return
 
-    # ---- PHASE 1 ----
     print(f"Phase 1: text-scanning {len(files)} files (no Java)...")
     usable = []
     for f in files:
@@ -119,9 +95,7 @@ def main(pool_dir, deep_n=DEEP_SHORTLIST):
     if not usable:
         return
 
-    # balanced shortlist: split usable into 3 file-size terciles and take
-    # an equal number from each, so small/medium ontologies are not drowned
-    # out by the (numerous) large ones.
+
     n = len(usable)
     t = max(1, n // 3)
     groups = [usable[:t], usable[t:2 * t], usable[2 * t:]]

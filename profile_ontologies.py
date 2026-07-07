@@ -1,24 +1,5 @@
 # profile_ontologies.py
-"""
-Two jobs in one script:
 
-1. PROFILE: for every ontology in candidate_counts.csv that produced
-   candidates, record structural metrics: object properties, named
-   individuals, classes, TBox axioms, ABox assertions. These are the
-   features suspected to drive CATS/AAA reasoning cost (esp. roles).
-
-2. SELECT a "light" sample: ontologies that are candidate-productive
-   AND reasoning-light (few object properties, modest individuals) —
-   the ones where CATS and AAA have a realistic chance of finishing.
-   Inspired by the structural bounds a fellow student used
-   (TBox 50-2000, classes 10-500, individuals <200, obj props <50).
-
-Output: ontology_profiles.csv + a printed "light sample" whitelist.
-
-If results.csv from a finished run is present, it also prints the
-correlation between object-property count and per-ontology timeout
-rate — the evidence for the 'roles drive reasoning cost' claim.
-"""
 import csv
 from pathlib import Path
 from config import load_ontology
@@ -83,7 +64,6 @@ def main():
             w.writerow({k: r.get(k, "") for k in fields})
     print(f"\nProfiles -> {OUT_CSV.resolve()}")
 
-    # ---- LIGHT SAMPLE ----
     light = [r for r in rows
              if r["obj_props"] <= MAX_OBJ_PROPS
              and r["individuals"] <= MAX_INDIVIDUALS]
@@ -101,7 +81,6 @@ def main():
     for r in light[:30]:
         print(r["file"])
 
-    # ---- CORRELATION WITH TIMEOUTS (if results exist) ----
     if RESULTS_CSV.exists():
         import pandas as pd
         res = pd.read_csv(RESULTS_CSV)

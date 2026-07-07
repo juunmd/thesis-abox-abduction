@@ -2,18 +2,26 @@
 
 ```
 .
+.
 ├── README.md
 ├── LICENSE
 ├── environment.yml
-├── scan_ontologies.py        # scans corpus
-├── select_bdxt.py        # applies selection criteria
-├── main.py         # main pipeline 
+├── .gitignore
+├── scan_ontologies.py          # scan corpus for candidate ontologies
+├── profile_ontologies.py       # profile / classify candidates
+├── select_best.py              # apply selection criteria -> final set
+├── main.py                     # main pipeline entry point
 ├── simple_experiment.py        # reasoning-light replication run
-├── plot_results.py               # coverage/runtime figures
+├── plot_results.py             # coverage/runtime figures
 ├── tools/                      # place the solver jars here (git-ignored)
-├── ontologies/                     # place ORE 2015 ontologies here 
-└── results/                    # CSV outputs; selection artifacts are kept in git
-
+│   └── .gitkeep
+├── ontologies/                 # place ORE 2015 ontologies here (git-ignored)
+│   └── .gitkeep
+├── candidate_counts.csv        # selection artifact (kept in git)
+└── results/                    # experiment output CSVs (kept in git)
+    ├── results.csv
+    ├── results_main_run.csv
+    └── simple_results.csv
 ```
 
 ---

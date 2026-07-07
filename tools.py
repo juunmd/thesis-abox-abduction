@@ -115,10 +115,7 @@ def _write_lethe_files(observation, allowed_signature):
 
     concept_path = "tmp/lethe_concepts.txt"
     role_path    = "tmp/lethe_roles.txt"
-    # LETHE's signature file is the FORGETTING signature (names to ELIMINATE
-    # / non-abducibles): forget the observation's class C so that LETHE
-    # abduces an explanation over the remaining signature instead of just
-    # echoing C(a).
+
     forget = list(obs_class_iris)
     with open(concept_path, "w") as f:
         for iri in forget:
@@ -251,13 +248,7 @@ def run_tool(tool_name, ontology_path, allowed_signature, namespace,
             "wsl", "java", "-Xmx4096m", "-jar", jar_wsl,
             "-i", in_wsl, "-obs", obs_str,
             "-out", out_wsl, "-d", "2", "-t", str(timeout)]
-        # Windows command-line limit is ~32767 chars (CreateProcess).
-        # On large ontologies the full signature can exceed this. When
-        # it would, omit -abd entirely (AAA falls back to using the
-        # ontology's full signature). This means Strategy A's signature
-        # restriction is not honored by AAA on large ontologies — a
-        # real accessibility finding worth flagging in the writeup.
-        WIN_CMD_BUDGET = 28000  # leave headroom for the rest of the argv
+
         if abd_str and len(abd_str) < WIN_CMD_BUDGET:
             command += ["-abd", abd_str]
         elif abd_str:
@@ -269,19 +260,14 @@ def run_tool(tool_name, ontology_path, allowed_signature, namespace,
 
     start = time.time()
     try:
-        # CATS has its own internal timeout (-t in the config). Give the
-        # subprocess wrapper extra headroom so CATS's internal timeout
-        # fires first and it can write its log cleanly, rather than being
-        # killed by the OS at exactly the same moment.
+
         sub_timeout = timeout + 60 if tool_name == "CATS" else timeout
         peak_mb = None
         if tool_name in ("CATS", "LETHE"):
-            # native java: sample the child process's peak RSS while it runs
             out, err, returncode, peak_mb = _run_with_peak_rss(
                 command, sub_timeout, cwd)
         else:
-            # AAA runs inside WSL; its real java process is unreachable from
-            # here, and AAA solves almost nothing, so memory is not measured.
+
             result = subprocess.run(command, timeout=sub_timeout,
                                     capture_output=True, text=True, cwd=cwd)
             out, err, returncode = result.stdout, result.stderr, result.returncode

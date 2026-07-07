@@ -144,8 +144,8 @@ def compute_metrics(observation_onto: SyncOntology,
         if isinstance(ax, OWLClassAssertionAxiom)
     }
 
-    named_pairs = set()   # only named-class assertions (can match GT)
-    all_pairs = set()     # every distinct assertion (size / denominator)
+    named_pairs = set()
+    all_pairs = set()
     for ax in hyp_axioms:
         if not isinstance(ax, OWLClassAssertionAxiom):
             continue
@@ -251,7 +251,7 @@ def is_valid_explanation(k_prime_path: str,
                     continue
                 ce = ax.get_class_expression()
                 if not isinstance(ce, OWLClass):
-                    continue   # complex assertions are handled by the reload path
+                    continue
                 cls_iri = ce.iri.as_str()
                 ind_iri = ax.get_individual().iri.as_str()
                 cls_obj = factory.getOWLClass(IRI_class.create(cls_iri))

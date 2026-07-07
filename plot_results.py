@@ -1,18 +1,3 @@
-# plot_results.py
-#
-# Generates the curated set of figures for the evaluation chapter.
-# Run AFTER the experiment finishes:  python plot_results.py
-#
-# Reads results/results.csv (the experiment output) and, if present,
-# ontology_selection.csv (for the complexity plots). Writes PDFs to plots/.
-#
-# Metric definitions (verify these match what you state in the thesis):
-#   solved     = valid_explanation == True AND hypothesis_size > 0
-#   invalid    = non-empty hypothesis that is NOT a valid explanation
-#   validity   = solved / (solved + invalid)         [of returned hypotheses]
-#   precision  = mean recovered_set_precision over solved runs
-#   matched    = solved AND recovery_rate > 0   (syntactic match to GT)
-#   disjoint   = solved AND recovery_rate == 0  (valid but no syntactic match)
 
 import numpy as np
 import pandas as pd
@@ -21,7 +6,6 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from pathlib import Path
 
-# ---------------------------------------------------------------- config
 RESULTS_CSV   = "results/results.csv"
 SELECTION_CSV = "ontology_selection.csv"
 OUT_DIR       = Path("plots")
@@ -36,7 +20,6 @@ plt.rcParams.update({
 })
 
 
-# ------------------------------------------------------------- load + tag
 def _num(x):
     try:
         return float(x)
@@ -88,7 +71,6 @@ def _save(fig, name):
     print(f"  saved plots/{name}.pdf")
 
 
-# ------------------------------------------------------------------ plots
 def plot_outcome(df):
     order = ["solved", "invalid", "empty", "timeout", "error"]
     cols  = {"solved": "#4E9A6B", "invalid": "#C44E52", "empty": "#C7C7C7",
@@ -241,7 +223,6 @@ def plot_solverate_vs(df, meta, xcol, xlabel, title, fname, average=False):
     _save(fig, fname)
 
 
-# ------------------------------------------------------------------- main
 def main():
     np.random.seed(0)  # stable strip-plot jitter
     if not Path(RESULTS_CSV).exists():
